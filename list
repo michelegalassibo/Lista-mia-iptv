@@ -5,8 +5,9 @@
 https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=2606803&output=7&forceUserAgent=raiplayappletv
 
 # 2 - Rai 2
-#EXTINF:-1 tvg-id="rai2.it",TEST Rai 2
-https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=308718&output=7&forceUserAgent=raiplayappletv
+#EXTINF:-1 tvg-id="rai2.it",TEST2 Rai 2
+# NO https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=308718&output=7&forceUserAgent=raiplayappletv
+https://streamcdnb3-8e7439fdb1694c8da3a0fd63e4dda518.msvdn.net/raidue1/hls/playlist_ma_1800-5000.m3u8?baseuri=%2Fraidue1%2Fhls%2F&tstart=0&tend=1767720712&tof=86400&tk2=9745755aaa39a804944013770027c836ae251d33fc62fa227395bc7d7d49200c
 
 # 3 - Rai 3
 #EXTINF:-1 tvg-id="rai3.it",NO Rai 3
@@ -27,7 +28,7 @@ https://live03-col.msf.cdn.mediaset.net/live/ch-c5/c5-clr.isml/manifest.mpd
 https://live03-col.msf.cdn.mediaset.net/live/ch-i1/i1-clr.isml/manifest.mpd
 
 # 7 - La7
-#EXTINF:-1 tvg-id="la7.it",TEST La7
+#EXTINF:-1 tvg-id="la7.it",La7
 #NO 060126 https://d3749synfikwkv.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-74ylxpgd78bpb/Live.m3u8
 https://jmp2.uk/stvp-ITBD1500002NL
 #logo http://odmsto.com/uploads/tv_image/sm/la7.png
@@ -159,7 +160,7 @@ https://live03-col.msf.cdn.mediaset.net/live/ch-la/la-clr.isml/manifest.mpd
 https://vimnitaly.akamaized.net/hls/live/2094034/super/master.m3u8
 
 # 46 - Rai News 24
-#EXTINF:-1 tvg-id="rainews24.it",TEST Rai News 24
+#EXTINF:-1 tvg-id="rainews24.it",Rai News 24
 # NO https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=1&output=7&forceUserAgent=raiplayappletv
 https://streamcdnb2-8e7439fdb1694c8da3a0fd63e4dda518.msvdn.net/rainews1/hls/playlist_mo.m3u8
 
