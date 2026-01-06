@@ -1,16 +1,27 @@
+# ultimo aggiornamento 060126
+
+# lista testata e filtrata il 060126 https://github.com/Tundrak/IPTV-Italia e https://raw.githubusercontent.com/Tundrak/IPTV-Italia/refs/heads/main/iptvita.m3u
+# lista filtrata il 061226 che contiene ancora tanti stream interessanti https://tivustream.website/urls/listm3u
+
+# DA TESTARE
+# https://github.com/Free-TV/IPTV
+# https://github.com/iptv-org/iptv -> https://iptv-org.github.io/iptv/countries/iq.m3u
+
+# sito per test streaming https://iptvplayer.stream/
+
 #EXTM3U
 
 # 1 - Rai 1
 #EXTINF:-1 tvg-id="rai1.it",NO Rai 1
-http://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=2606803&output=7&forceUserAgent=raiplayappletv
+https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=2606803&output=7&forceUserAgent=raiplayappletv
 
 # 2 - Rai 2
-#EXTINF:-1 tvg-id="rai2.it",NO Rai 2
-http://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=308718&output=7&forceUserAgent=raiplayappletv
+#EXTINF:-1 tvg-id="rai2.it",TEST Rai 2
+https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=308718&output=7&forceUserAgent=raiplayappletv
 
 # 3 - Rai 3
 #EXTINF:-1 tvg-id="rai3.it",NO Rai 3
-http://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=308709&output=7&forceUserAgent=raiplayappletv
+https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=308709&output=7&forceUserAgent=raiplayappletv
 
 # 4 - Rete 4
 #EXTINF:-1 tvg-id="rete4.it",Rete 4
@@ -27,12 +38,15 @@ https://live03-col.msf.cdn.mediaset.net/live/ch-c5/c5-clr.isml/manifest.mpd
 https://live03-col.msf.cdn.mediaset.net/live/ch-i1/i1-clr.isml/manifest.mpd
 
 # 7 - La7
-#EXTINF:-1 tvg-id="la7.it",NO La7
-https://d3749synfikwkv.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-74ylxpgd78bpb/Live.m3u8
+#EXTINF:-1 tvg-id="la7.it",TEST La7
+#NO 060126 https://d3749synfikwkv.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-74ylxpgd78bpb/Live.m3u8
+https://jmp2.uk/stvp-ITBD1500002NL
+#logo http://odmsto.com/uploads/tv_image/sm/la7.png
 
-# 7d - La7d
+# 7d - La7d (la 7 cinema?)
 #EXTINF:-1 tvg-id="la7d.it",NO La7 d
 https://d15umi5iaezxgx.cloudfront.net/LA7D/CLN/HLS/Live.m3u8
+# la7 cinema che non va https://viamotionhsi.netplus.ch/live/eds/la7d/browser-HLS8/la7d.m3u8
 
 # 8 - TV8
 #EXTINF:-1 tvg-id="tv8.it",NO TV8
@@ -48,7 +62,7 @@ https://live03-col.msf.cdn.mediaset.net/live/ch-lb/lb-clr.isml/manifest.mpd
 
 # 21 - Rai 4
 #EXTINF:-1 tvg-id="rai4.it",NO Rai 4
-http://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=746966&output=7&forceUserAgent=raiplayappletv
+https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=746966&output=7&forceUserAgent=raiplayappletv
 
 # 22 - Iris
 #EXTINF:-1 tvg-id="iris.it",Iris
@@ -56,15 +70,15 @@ https://live03-col.msf.cdn.mediaset.net/live/ch-ki/ki-clr.isml/manifest.mpd
 
 # 23 - Rai 5
 #EXTINF:-1 tvg-id="rai5.it",NO Rai 5
-http://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=395276&output=7&forceUserAgent=raiplayappletv
+https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=395276&output=7&forceUserAgent=raiplayappletv
 
 # 24 - Rai Movie
 #EXTINF:-1 tvg-id="raimovie.it",NO Rai Movie
-http://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=747002&output=7&forceUserAgent=raiplayappletv
+https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=747002&output=7&forceUserAgent=raiplayappletv
 
 # 25 - Rai Premium
 #EXTINF:-1 tvg-id="raipremium.it",NO Rai Premium
-http://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=746992&output=7&forceUserAgent=raiplayappletv
+https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=746992&output=7&forceUserAgent=raiplayappletv
 
 # 26 - Cielo
 #EXTINF:-1 tvg-id="cielo.it",NO Cielo
@@ -134,11 +148,11 @@ https://d1pmpe0hs35ka5.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68
 
 # 41 - Rai Gulp
 #EXTINF:-1 tvg-id="raigulp.it",NO Rai Gulp
-http://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=746953&output=7&forceUserAgent=raiplayappletv
+https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=746953&output=7&forceUserAgent=raiplayappletv
 
 # 42 - Rai Yoyo
 #EXTINF:-1 tvg-id="raiyoyo.it",NO Rai Yoyo
-http://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=746899&output=7&forceUserAgent=raiplayappletv
+https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=746899&output=7&forceUserAgent=raiplayappletv
 
 # 43 - Frisbee
 #EXTINF:-1 tvg-id="frisbee.it",Frisbee
@@ -156,8 +170,9 @@ https://live03-col.msf.cdn.mediaset.net/live/ch-la/la-clr.isml/manifest.mpd
 https://vimnitaly.akamaized.net/hls/live/2094034/super/master.m3u8
 
 # 46 - Rai News 24
-#EXTINF:-1 tvg-id="rainews24.it",NO Rai News 24
-http://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=1&output=7&forceUserAgent=raiplayappletv
+#EXTINF:-1 tvg-id="rainews24.it",TEST Rai News 24
+# NO https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=1&output=7&forceUserAgent=raiplayappletv
+https://streamcdnb2-8e7439fdb1694c8da3a0fd63e4dda518.msvdn.net/rainews1/hls/playlist_mo.m3u8
 
 # 47 - Italia 2
 #EXTINF:-1 tvg-id="italia2.it",Italia 2
@@ -179,7 +194,7 @@ https://d2j2nqgg7bzth.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a
 
 # 51 - Rai Storia
 #EXTINF:-1 tvg-id="raistoria.it",NO Rai Storia
-http://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=746990&output=7&forceUserAgent=raiplayappletv
+https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=746990&output=7&forceUserAgent=raiplayappletv
 
 # 52 - Mediaset Extra
 #EXTINF:-1 tvg-id="mediasetextra.it",Mediaset Extra
@@ -192,11 +207,11 @@ https://d1tidto9vz737l.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68
 
 # 54 - Rai Scuola
 #EXTINF:-1 tvg-id="raiscuola.it",NO Rai Scuola
-http://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=747011&output=7&forceUserAgent=raiplayappletv
+https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=747011&output=7&forceUserAgent=raiplayappletv
 
 # 55 - Rai Sport + HD
 #EXTINF:-1 tvg-id="raisport.it",NO Rai Sport + HD
-http://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=358025&output=7&forceUserAgent=raiplayappletv
+https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=358025&output=7&forceUserAgent=raiplayappletv
 
 # 56 - Turbo
 #EXTINF:-1 tvg-id="turbo.it",Turbo
@@ -253,8 +268,12 @@ https://kk.fluid.stream/KKMulti/smil:KissKissTV.smil/playlist.m3u8
 
 # 69 - Rai Radio 2 Visual
 #EXTINF:-1 tvg-id="rairadio2.it",NO Rai Radio 2 Visual
-http://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=5674080&output=7&forceUserAgent=raiplayappletv
+https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=5674080&output=7&forceUserAgent=raiplayappletv
 
 # 70 - RTL 102.5 News
 #EXTINF:-1 tvg-id="rtl1025news.it",RTL 102.5 News
 https://dd782ed59e2a4e86aabf6fc508674b59.msvdn.net/live/S38122967/2lyQRIAAGgRR/playlist_video.m3u8
+
+# 999 - 992 Sky News
+#EXTINF:-1 tvg-id="skynews.uk",Sky News
+https://d1bl6tskrpq9ze.cloudfront.net/hls/master.m3u8?ads.xumo_channelId=99992602&ads.xumo_streamId=99992602&ads.channelId=99992602&ads.ad_tag_id=118011&ads.csid=lgchannels_it_skynewsamericas_ssai&ads.channelName=skynews_it&ads.xumo_contentName=SkyNewsAmericas&ads.xumo_contentId=3867&ads.xumo_providerName=SkyNewsAmericas&ads.xumo_providerId=3867&ads.content_category=IAB1-7&ads.content_genre=television&ads.content_language=en&ads.content_rating=tv-pg&ads.coppa=0&ads.livestream=0&ads.prodq=1&ads.did=[IFA]&ads.lmt=[LMT]&ads.dnt=[DNS]&ads.us_privacy=[US_PRIVACY]&ads.gdpr=[GDPR]&ads.gdpr_consent=[GDPR_CONSENT]&ads.devicemake=[DEVICE_MAKE]&ads.devicemodel=[DEVICE_MODEL]&ads.country=[COUNTRY]&ads.fck=[FCK]&ads.viewsize=[VIEWSIZE]&ads.givn=[NONCE]&ads.app_name=[APP_NAME]&ads.app_bundle=[APP_BUNDLE]&ads.app_storeurl=[APP_STOREURL]
