@@ -22,7 +22,7 @@ https://live03-col.msf.cdn.mediaset.net/live/ch-r4/r4-clr.isml/manifest.mpd
 https://live03-col.msf.cdn.mediaset.net/live/ch-c5/c5-clr.isml/manifest.mpd
 
 # 6 - Italia 1
-#EXTINF:-1 tvg-id="italia1.it",TEST Italia 1
+#EXTINF:-1 tvg-id="italia1.it",Italia 1
 #EXTVLCOPT:http-user-agent=HbbTV/1.6.1
 https://live03-col.msf.cdn.mediaset.net/live/ch-i1/i1-clr.isml/manifest.mpd
 
@@ -71,7 +71,7 @@ http://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=746992&output=7&force
 https://hlslive-web-gcdn-skycdn-it.akamaized.net/TACT/11219/cieloweb/master.m3u8
 
 # 27 - Twenty Seven
-#EXTINF:-1 tvg-id="twentyseven.it",TEST Twenty Seven
+#EXTINF:-1 tvg-id="twentyseven.it",Twenty Seven
 #EXTVLCOPT:http-user-agent=HbbTV/1.6.1
 https://live03-col.msf.cdn.mediaset.net/live/ch-ts/ts-clr.isml/manifest.mpd
 
@@ -80,7 +80,7 @@ https://live03-col.msf.cdn.mediaset.net/live/ch-ts/ts-clr.isml/manifest.mpd
 https://hls-live-tv2000.akamaized.net/hls/live/2028510/tv2000/master.m3u8
 
 # 29 - La 5
-#EXTINF:-1 tvg-id="la5.it",TEST La 5
+#EXTINF:-1 tvg-id="la5.it",La 5
 #EXTVLCOPT:http-user-agent=HbbTV/1.6.1
 https://live03-col.msf.cdn.mediaset.net/live/ch-ka/ka-clr.isml/manifest.mpd
 
@@ -89,7 +89,7 @@ https://live03-col.msf.cdn.mediaset.net/live/ch-ka/ka-clr.isml/manifest.mpd
 https://d3562mgijzx0zq.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-kizqtzpvvl3i8/Realtime_IT.m3u8
 
 # 31 - QVC
-#EXTINF:-1 tvg-id="qvc.it",TEST QVC
+#EXTINF:-1 tvg-id="qvc.it",QVC
 https://qrg.akamaized.net/hls/live/2017383/lsqvc1it/master.m3u8
 
 # 32 - Food Network
@@ -97,12 +97,12 @@ https://qrg.akamaized.net/hls/live/2017383/lsqvc1it/master.m3u8
 https://dk3okdd5036kz.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-o4pw0nc02sthz/Foodnetwork_IT.m3u8
 
 # 33 - Cine34
-#EXTINF:-1 tvg-id="cine34.it",TEST Cine34
+#EXTINF:-1 tvg-id="cine34.it",Cine34
 #EXTVLCOPT:http-user-agent=HbbTV/1.6.1
 https://live03-col.msf.cdn.mediaset.net/live/ch-b6/b6-clr.isml/manifest.mpd
 
 # 34 - FOCUS
-#EXTINF:-1 tvg-id="focus.it",TEST FOCUS
+#EXTINF:-1 tvg-id="focus.it",FOCUS
 #EXTVLCOPT:http-user-agent=HbbTV/1.6.1
 https://live03-col.msf.cdn.mediaset.net/live/ch-fu/fu-clr.isml/manifest.mpd
 
@@ -119,12 +119,12 @@ https://d24aqelmrau4kx.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68
 https://d9fqo6nfqlv2h.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-ulukbrgm1n3yb/Giallo_IT.m3u8
 
 # 38 - Top Crime
-#EXTINF:-1 tvg-id="topcrime.it",TEST Top Crime
+#EXTINF:-1 tvg-id="topcrime.it",Top Crime
 #EXTVLCOPT:http-user-agent=HbbTV/1.6.1
 https://live03-col.msf.cdn.mediaset.net/live/ch-lt/lt-clr.isml/manifest.mpd
 
 # 39 - Boing
-#EXTINF:-1 tvg-id="boing.it",TEST Boing
+#EXTINF:-1 tvg-id="boing.it",Boing
 #EXTVLCOPT:http-user-agent=HbbTV/1.6.1
 https://live03-col.msf.cdn.mediaset.net/live/ch-kb/kb-clr.isml/manifest.mpd
 
@@ -141,17 +141,17 @@ http://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=746953&output=7&force
 http://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=746899&output=7&forceUserAgent=raiplayappletv
 
 # 43 - Frisbee
-#EXTINF:-1 tvg-id="frisbee.it",TEST Frisbee
+#EXTINF:-1 tvg-id="frisbee.it",Frisbee
 #EXTVLCOPT:http-user-agent=HbbTV/1.6.1
-https://d6m7lubks416z.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d/Frisbee_IT.m3u8
+https://d6m7lubks416z.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-zmbstsedxme9s/Frisbee_IT.m3u8
 
 # 44 - Cartoonito
-#EXTINF:-1 tvg-id="cartoonito.it",TEST Cartoonito
+#EXTINF:-1 tvg-id="cartoonito.it",Cartoonito
 #EXTVLCOPT:http-user-agent=HbbTV/1.6.1
 https://live03-col.msf.cdn.mediaset.net/live/ch-la/la-clr.isml/manifest.mpd
 
 # 45 - Super!
-#EXTINF:-1 tvg-id="super.it",TEST Super!
+#EXTINF:-1 tvg-id="super.it",NO Super!
 #EXTVLCOPT:http-user-agent=HbbTV/1.6.1
 https://vimnitaly.akamaized.net/hls/live/2094034/super/master.m3u8
 
@@ -160,7 +160,7 @@ https://vimnitaly.akamaized.net/hls/live/2094034/super/master.m3u8
 http://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=1&output=7&forceUserAgent=raiplayappletv
 
 # 47 - Italia 2
-#EXTINF:-1 tvg-id="italia2.it",TEST Italia 2
+#EXTINF:-1 tvg-id="italia2.it",Italia 2
 #EXTVLCOPT:http-user-agent=HbbTV/1.6.1
 https://live03-col.msf.cdn.mediaset.net/live/ch-i2/i2-clr.isml/manifest.mpd
 
@@ -169,7 +169,7 @@ https://live03-col.msf.cdn.mediaset.net/live/ch-i2/i2-clr.isml/manifest.mpd
 https://hlslive-web-gcdn-skycdn-it.akamaized.net/TACT/12221/web/master.m3u8
 
 # 49 - TGCOM 24
-#EXTINF:-1 tvg-id="tgcom24.it",TEST TGCOM 24
+#EXTINF:-1 tvg-id="tgcom24.it",TGCOM 24
 #EXTVLCOPT:http-user-agent=HbbTV/1.6.1
 https://live03-col.msf.cdn.mediaset.net/live/ch-kf/kf-clr.isml/manifest.mpd
 
@@ -182,7 +182,7 @@ https://d2j2nqgg7bzth.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a
 http://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=746990&output=7&forceUserAgent=raiplayappletv
 
 # 52 - Mediaset Extra
-#EXTINF:-1 tvg-id="mediasetextra.it",TEST Mediaset Extra
+#EXTINF:-1 tvg-id="mediasetextra.it",Mediaset Extra
 #EXTVLCOPT:http-user-agent=HbbTV/1.6.1
 https://live03-col.msf.cdn.mediaset.net/live/ch-kq/kq-clr.isml/manifest.mpd
 
@@ -219,7 +219,7 @@ https://live-embed.supertennix.hiway.media/restreamer/supertennix_client/gpu-a-c
 https://streaming.softwarecreation.it/AlmaTv/AlmaTv/playlist.m3u8
 
 # 61 - Radio 105 TV
-#EXTINF:-1 tvg-id="radio105.it",TEST Radio 105 TV
+#EXTINF:-1 tvg-id="radio105.it",Radio 105 TV
 #EXTVLCOPT:http-user-agent=HbbTV/1.6.1
 https://live03-col.msr.cdn.mediaset.net/live/ch-ec/ec-clr.isml/manifest.mpd
 
