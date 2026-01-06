@@ -1,4 +1,4 @@
-#EXTM3U
+#EXTM3U x-tvg-url="http://www.epg-guide.com/it.gz"
 
 # ultimo aggiornamento 060126 1916
 
@@ -47,13 +47,13 @@ https://jmp2.uk/stvp-ITBD1500002NL
 #logo http://odmsto.com/uploads/tv_image/sm/la7.png
 
 # 7d - La7d (la 7 cinema?)
-#EXTINF:-1 tvg-id="la7d.it",NO La7 d
-https://d15umi5iaezxgx.cloudfront.net/LA7D/CLN/HLS/Live.m3u8
+#EXTINF:-1 tvg-id="la7d.it",TEST La7 d
+https://d15umi5iaezxgx.cloudfront.net/LA7D/CLN/HLS-B/Live_1280x720_.m3u8
 # la7 cinema che non va https://viamotionhsi.netplus.ch/live/eds/la7d/browser-HLS8/la7d.m3u8
 
 # 8 - TV8
-#EXTINF:-1 tvg-id="tv8.it",NO TV8
-https://hlslive-web-gcdn-skycdn-it.akamaized.net/TACT/11223/tv8web/master.m3u8
+#EXTINF:-1 tvg-id="tv8.it",TEST TV8
+https://hlslive-web-gcdn-skycdn-it.akamaized.net/TACT/11223/tv8web/master.m3u8?hdnea=st=1701861650~exp=1765449000~acl=/*~hmac=84c9f3f71e57b13c3a67afa8b29a8591ea9ed84bf786524399545d94be1ec04d
 
 # 9 - NOVE
 #EXTINF:-1 tvg-id="nove.it",NOVE
@@ -64,7 +64,7 @@ https://d31mw7o1gs0dap.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68
 https://live03-col.msf.cdn.mediaset.net/live/ch-lb/lb-clr.isml/manifest.mpd
 
 # 21 - Rai 4
-#EXTINF:-1 tvg-id="rai4.it",TEST Rai 4
+#EXTINF:-1 tvg-id="rai4.it",Rai 4
 #EXTVLCOPT:http-user-agent=rainet/4.0.5
 https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=746966&output=7&forceUserAgent=raiplayappletv
 
@@ -73,23 +73,23 @@ https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=746966&output=7&forc
 https://live03-col.msf.cdn.mediaset.net/live/ch-ki/ki-clr.isml/manifest.mpd
 
 # 23 - Rai 5
-#EXTINF:-1 tvg-id="rai5.it",TEST Rai 5
+#EXTINF:-1 tvg-id="rai5.it",Rai 5
 #EXTVLCOPT:http-user-agent=rainet/4.0.5
 https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=395276&output=7&forceUserAgent=raiplayappletv
 
 # 24 - Rai Movie
-#EXTINF:-1 tvg-id="raimovie.it",TEST Rai Movie
+#EXTINF:-1 tvg-id="raimovie.it",Rai Movie
 #EXTVLCOPT:http-user-agent=rainet/4.0.5
 https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=747002&output=7&forceUserAgent=raiplayappletv
 
 # 25 - Rai Premium
-#EXTINF:-1 tvg-id="raipremium.it",TEST Rai Premium
+#EXTINF:-1 tvg-id="raipremium.it",Rai Premium
 #EXTVLCOPT:http-user-agent=rainet/4.0.5
 https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=746992&output=7&forceUserAgent=raiplayappletv
 
 # 26 - Cielo
-#EXTINF:-1 tvg-id="cielo.it",NO Cielo
-https://hlslive-web-gcdn-skycdn-it.akamaized.net/TACT/11219/cieloweb/master.m3u8
+#EXTINF:-1 tvg-id="cielo.it",TEST Cielo
+https://hlslive-web-gcdn-skycdn-it.akamaized.net/TACT/11219/cieloweb/master.m3u8?hdnea=st=1701861650~exp=1765449000~acl=/*~hmac=84c9f3f71e57b13c3a67afa8b29a8591ea9ed84bf786524399545d94be1ec04d
 
 # 27 - Twenty Seven
 #EXTINF:-1 tvg-id="twentyseven.it",Twenty Seven
@@ -154,12 +154,12 @@ https://live03-col.msf.cdn.mediaset.net/live/ch-kb/kb-clr.isml/manifest.mpd
 https://d1pmpe0hs35ka5.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-39hsskpppgf72/K2_IT.m3u8
 
 # 41 - Rai Gulp
-#EXTINF:-1 tvg-id="raigulp.it",TEST Rai Gulp
+#EXTINF:-1 tvg-id="raigulp.it",Rai Gulp
 #EXTVLCOPT:http-user-agent=rainet/4.0.5
 https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=746953&output=7&forceUserAgent=raiplayappletv
 
 # 42 - Rai Yoyo
-#EXTINF:-1 tvg-id="raiyoyo.it",TEST Rai Yoyo
+#EXTINF:-1 tvg-id="raiyoyo.it",Rai Yoyo
 #EXTVLCOPT:http-user-agent=rainet/4.0.5
 https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=746899&output=7&forceUserAgent=raiplayappletv
 
@@ -174,9 +174,9 @@ https://d6m7lubks416z.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a
 https://live03-col.msf.cdn.mediaset.net/live/ch-la/la-clr.isml/manifest.mpd
 
 # 45 - Super!
-#EXTINF:-1 tvg-id="super.it",NO Super!
+#EXTINF:-1 tvg-id="super.it",TEST Super!
 #EXTVLCOPT:http-user-agent=HbbTV/1.6.1
-https://vimnitaly.akamaized.net/hls/live/2094034/super/master.m3u8
+https://vimnitaly.akamaized.net/hls/live/2094034/super/master-2500.m3u8
 
 # 46 - Rai News 24
 #EXTINF:-1 tvg-id="rainews24.it",Rai News 24
@@ -189,8 +189,8 @@ https://streamcdnb2-8e7439fdb1694c8da3a0fd63e4dda518.msvdn.net/rainews1/hls/play
 https://live03-col.msf.cdn.mediaset.net/live/ch-i2/i2-clr.isml/manifest.mpd
 
 # 48 - Sky TG24
-#EXTINF:-1 tvg-id="skytg24.it",NO Sky TG24
-https://hlslive-web-gcdn-skycdn-it.akamaized.net/TACT/12221/web/master.m3u8
+#EXTINF:-1 tvg-id="skytg24.it",TEST Sky TG24
+https://hlslive-web-gcdn-skycdn-it.akamaized.net/TACT/12221/web/master.m3u8?hdnts=st=1701861650~exp=1765449000~acl=/*~hmac=84c9f3f71e57b13c3a67afa8b29a8591ea9ed84bf786524399545d94be1ec04d
 
 # 49 - TGCOM 24
 #EXTINF:-1 tvg-id="tgcom24.it",TGCOM 24
@@ -202,7 +202,7 @@ https://live03-col.msf.cdn.mediaset.net/live/ch-kf/kf-clr.isml/manifest.mpd
 https://d2j2nqgg7bzth.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-02k1gv1j0ufwn/DMAX_IT.m3u8
 
 # 51 - Rai Storia
-#EXTINF:-1 tvg-id="raistoria.it",TEST Rai Storia
+#EXTINF:-1 tvg-id="raistoria.it",Rai Storia
 #EXTVLCOPT:http-user-agent=rainet/4.0.5
 https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=746990&output=7&forceUserAgent=raiplayappletv
 
@@ -216,12 +216,12 @@ https://live03-col.msf.cdn.mediaset.net/live/ch-kq/kq-clr.isml/manifest.mpd
 https://d1tidto9vz737l.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-joaw4f4kh2en1/HGTV_IT.m3u8
 
 # 54 - Rai Scuola
-#EXTINF:-1 tvg-id="raiscuola.it",TEST Rai Scuola
+#EXTINF:-1 tvg-id="raiscuola.it",Rai Scuola
 #EXTVLCOPT:http-user-agent=rainet/4.0.5
 https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=747011&output=7&forceUserAgent=raiplayappletv
 
 # 55 - Rai Sport + HD
-#EXTINF:-1 tvg-id="raisport.it",TEST Rai Sport + HD
+#EXTINF:-1 tvg-id="raisport.it",Rai Sport + HD
 #EXTVLCOPT:http-user-agent=rainet/4.0.5
 https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=358025&output=7&forceUserAgent=raiplayappletv
 
@@ -230,12 +230,12 @@ https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=358025&output=7&forc
 https://d205m6k582pec4.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-asg5puyzdtnqu/Motortrend_IT.m3u8
 
 # 57 - Sportitalia
-#EXTINF:-1 tvg-id="sportitalia.it",NO Sportitalia
-https://sportitaliaamd.akamaized.net/live/Sportitalia/hls/F59D8EB0332E783633CDDE8E265844975635D24F/index.m3u8
+#EXTINF:-1 tvg-id="sportitalia.it",TEST Sportitalia
+https://di-kzbhv8pw.vo.lswcdn.net/sportitalia/sihd/playlist.m3u8
 
 # 58 - Donna TV
-#EXTINF:-1 tvg-id="donnatv.it",NO Donna TV
-https://sportitaliaamd.akamaized.net/live/Donna_TV/hls/42EB42E58EA44362045EFEA804E3FCF0DB33C481/index.m3u8
+#EXTINF:-1 tvg-id="donnatv.it",TEST Donna TV
+https://donnatv.grupposciscione.knoxstreaming.com/live/1080p/livestream_def.m3u8
 
 # 59 - Supertennis
 #EXTINF:-1 tvg-id="supertennis.it",NO Supertennis
@@ -267,7 +267,7 @@ https://4c4b867c89244861ac216426883d1ad0.msvdn.net/live/S85984808/sMO0tz9Sr2Rk/p
 https://radioitaliatv.akamaized.net/hls/live/2093117/RadioitaliaTV/master.m3u8
 
 # 66 - Rai 4K
-#EXTINF:-1 tvg-id="rai4k.it",TEST Rai 4K
+#EXTINF:-1 tvg-id="rai4k.it",Rai 4K
 #EXTVLCOPT:http-user-agent=rainet/4.0.5
 https://raievent10-elem-live.akamaized.net/hls/live/619189/raievent10/raievent10/playlist.m3u8
 
@@ -280,7 +280,7 @@ https://600f07e114306.streamlock.net/PadrePioTV/livestream/playlist.m3u8
 https://kk.fluid.stream/KKMulti/smil:KissKissTV.smil/playlist.m3u8
 
 # 69 - Rai Radio 2 Visual
-#EXTINF:-1 tvg-id="rairadio2.it",TEST Rai Radio 2 Visual
+#EXTINF:-1 tvg-id="rairadio2.it",Rai Radio 2 Visual
 #EXTVLCOPT:http-user-agent=rainet/4.0.5
 https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=5674080&output=7&forceUserAgent=raiplayappletv
 
