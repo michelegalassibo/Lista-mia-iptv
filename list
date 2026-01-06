@@ -1,6 +1,6 @@
 #EXTM3U
 
-# ultimo aggiornamento 060126 1904
+# ultimo aggiornamento 060126 1905
 
 # lista testata e filtrata il 060126 https://github.com/Tundrak/IPTV-Italia e https://raw.githubusercontent.com/Tundrak/IPTV-Italia/refs/heads/main/iptvita.m3u
 # lista filtrata il 061226 che contiene ancora tanti stream interessanti https://tivustream.website/urls/listm3u
@@ -12,19 +12,19 @@
 # sito per test streaming https://iptvplayer.stream/
 
 # 1 - Rai 1
-#EXTINF:-1 tvg-id="rai1.it",TEST4 Rai 1
+#EXTINF:-1 tvg-id="rai1.it",Rai 1
 #EXTVLCOPT:http-user-agent=rainet/4.0.5
 https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=2606803&output=7&forceUserAgent=raiplayappletv
 
 # 2 - Rai 2
-#EXTINF:-1 tvg-id="rai2.it",BOH Rai 2
-# NO https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=308718&output=7&forceUserAgent=raiplayappletv
-https://streamcdnb3-8e7439fdb1694c8da3a0fd63e4dda518.msvdn.net/raidue1/hls/playlist_ma_1800-5000.m3u8?baseuri=%2Fraidue1%2Fhls%2F&tstart=0&tend=1767720712&tof=86400&tk2=9745755aaa39a804944013770027c836ae251d33fc62fa227395bc7d7d49200c
+#EXTINF:-1 tvg-id="rai2.it",TEST4 Rai 2
+#EXTVLCOPT:http-user-agent=rainet/4.0.5
+https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=308718&output=7&forceUserAgent=raiplayappletv
 
 # 3 - Rai 3
-#EXTINF:-1 tvg-id="rai3.it",BOH Rai 3
-# NO https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=308709&output=7&forceUserAgent=raiplayappletv
-https://streamcdne2-8e7439fdb1694c8da3a0fd63e4dda518.msvdn.net/raitre1/hls/playlist_ma_1800-5000.m3u8?baseuri=%2Fraitre1%2Fhls%2F&tstart=0&tend=1767720927&tof=86400&tk2=0c0a1273dd3271a0f46777d7fb63519ba2c7bdd2a06908fc8b4a31c7dea1d729
+#EXTINF:-1 tvg-id="rai3.it",TEST4 Rai 3
+#EXTVLCOPT:http-user-agent=rainet/4.0.5
+https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=308709&output=7&forceUserAgent=raiplayappletv
 
 # 4 - Rete 4
 #EXTINF:-1 tvg-id="rete4.it",Rete 4
