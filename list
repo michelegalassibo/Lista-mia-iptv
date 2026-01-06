@@ -1,6 +1,6 @@
 #EXTM3U
 
-# ultimo aggiornamento 060126 1850
+# ultimo aggiornamento 060126 1853
 
 # lista testata e filtrata il 060126 https://github.com/Tundrak/IPTV-Italia e https://raw.githubusercontent.com/Tundrak/IPTV-Italia/refs/heads/main/iptvita.m3u
 # lista filtrata il 061226 che contiene ancora tanti stream interessanti https://tivustream.website/urls/listm3u
@@ -12,11 +12,12 @@
 # sito per test streaming https://iptvplayer.stream/
 
 # 1 - Rai 1
-#EXTINF:-1 tvg-id="rai1.it",TEST3 Rai 1
+# NO #EXTINF:-1 tvg-id="rai1.it",TEST3 Rai 1
 # NO https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=2606803&output=7&forceUserAgent=raiplayappletv
 # NO https://viamotionhsi.netplus.ch/live/eds/rai1/browser-HLS8/rai1.m3u8
 #EXTVLCOPT:http-user-agent=HbbTV/1.6.1
-https://cachehsi1a.netplus.ch/tok_eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOiIxNzY3NzcxMjU3Iiwic2lwIjoiIiwicGF0aCI6Ii9saXZlL2Vkcy9yYWkxL2Jyb3dzZXItSExTOC8iLCJzZXNzaW9uX2Nkbl9pZCI6IjEwODI0MTRhZTQxYzgwNzMiLCJzZXNzaW9uX2lkIjoiIiwiY2xpZW50X2lkIjoiIiwiZGV2aWNlX2lkIjoiIiwibWF4X3Nlc3Npb25zIjowLCJzZXNzaW9uX2R1cmF0aW9uIjowLCJ1cmwiOiJodHRwczovLzEwLjAuMjI5LjIyIiwic2Vzc2lvbl90aW1lb3V0IjowLCJhdWQiOiI0MSIsInNvdXJjZXMiOls4NF19.cfPwiShtDE-BhpFp-s8S_56a_xfSLF4RxJl5aHosrC9kby4h0VywqnHa1bXFyA36uR6i9b-pr4WZNjNlr6F8rw==/live/eds/rai1/browser-HLS8/rai1.m3u8
+# NO https://cachehsi1a.netplus.ch/tok_eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOiIxNzY3NzcxMjU3Iiwic2lwIjoiIiwicGF0aCI6Ii9saXZlL2Vkcy9yYWkxL2Jyb3dzZXItSExTOC8iLCJzZXNzaW9uX2Nkbl9pZCI6IjEwODI0MTRhZTQxYzgwNzMiLCJzZXNzaW9uX2lkIjoiIiwiY2xpZW50X2lkIjoiIiwiZGV2aWNlX2lkIjoiIiwibWF4X3Nlc3Npb25zIjowLCJzZXNzaW9uX2R1cmF0aW9uIjowLCJ1cmwiOiJodHRwczovLzEwLjAuMjI5LjIyIiwic2Vzc2lvbl90aW1lb3V0IjowLCJhdWQiOiI0MSIsInNvdXJjZXMiOls4NF19.cfPwiShtDE-BhpFp-s8S_56a_xfSLF4RxJl5aHosrC9kby4h0VywqnHa1bXFyA36uR6i9b-pr4WZNjNlr6F8rw==/live/eds/rai1/browser-HLS8/rai1.m3u8
+#EXTINF:-1 tvg-chno="1" tvg-id="rai 1" tvg-name="TEST4 Rai 1" tvg-logo="http://odmsto.com/uploads/tv_image/sm/rai-1-prtwes3x26ld.png" group-title="Rai Tv" user-agent="raiplayappletv",Rai 1
 
 # 2 - Rai 2
 #EXTINF:-1 tvg-id="rai2.it",BOH Rai 2
