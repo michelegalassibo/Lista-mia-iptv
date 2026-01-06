@@ -1,6 +1,6 @@
 #EXTM3U
 
-# ultimo aggiornamento 060126 1854
+# ultimo aggiornamento 060126 1904
 
 # lista testata e filtrata il 060126 https://github.com/Tundrak/IPTV-Italia e https://raw.githubusercontent.com/Tundrak/IPTV-Italia/refs/heads/main/iptvita.m3u
 # lista filtrata il 061226 che contiene ancora tanti stream interessanti https://tivustream.website/urls/listm3u
@@ -12,7 +12,9 @@
 # sito per test streaming https://iptvplayer.stream/
 
 # 1 - Rai 1
-#EXTINF:-1 tvg-chno="1" tvg-id="rai 1" tvg-name="TEST4 Rai 1" tvg-logo="http://odmsto.com/uploads/tv_image/sm/rai-1-prtwes3x26ld.png" group-title="Rai Tv" user-agent="raiplayappletv",Rai 1
+#EXTINF:-1 tvg-id="rai1.it",TEST4 Rai 1
+#EXTVLCOPT:http-user-agent=rainet/4.0.5
+https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=2606803&output=7&forceUserAgent=raiplayappletv
 
 # 2 - Rai 2
 #EXTINF:-1 tvg-id="rai2.it",BOH Rai 2
