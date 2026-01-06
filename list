@@ -1,8 +1,9 @@
 #EXTM3U
 
 # 1 - Rai 1
-#EXTINF:-1 tvg-id="rai1.it",TEST Rai 1
+#EXTINF:-1 tvg-id="rai1.it",TEST2 Rai 1
 # NO https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=2606803&output=7&forceUserAgent=raiplayappletv
+#EXTVLCOPT:http-user-agent=HbbTV/1.6.1
 https://viamotionhsi.netplus.ch/live/eds/rai1/browser-HLS8/rai1.m3u8
 
 # 2 - Rai 2
