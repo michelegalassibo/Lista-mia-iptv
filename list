@@ -1,6 +1,6 @@
 #EXTM3U
 
-# ultimo aggiornamento 060126 1909
+# ultimo aggiornamento 060126 1916
 
 # lista testata e filtrata il 060126 https://github.com/Tundrak/IPTV-Italia e https://raw.githubusercontent.com/Tundrak/IPTV-Italia/refs/heads/main/iptvita.m3u
 # lista filtrata il 061226 che contiene ancora tanti stream interessanti https://tivustream.website/urls/listm3u
@@ -64,7 +64,8 @@ https://d31mw7o1gs0dap.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68
 https://live03-col.msf.cdn.mediaset.net/live/ch-lb/lb-clr.isml/manifest.mpd
 
 # 21 - Rai 4
-#EXTINF:-1 tvg-id="rai4.it",NO Rai 4
+#EXTINF:-1 tvg-id="rai4.it",TEST Rai 4
+#EXTVLCOPT:http-user-agent=rainet/4.0.5
 https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=746966&output=7&forceUserAgent=raiplayappletv
 
 # 22 - Iris
@@ -72,15 +73,18 @@ https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=746966&output=7&forc
 https://live03-col.msf.cdn.mediaset.net/live/ch-ki/ki-clr.isml/manifest.mpd
 
 # 23 - Rai 5
-#EXTINF:-1 tvg-id="rai5.it",NO Rai 5
+#EXTINF:-1 tvg-id="rai5.it",TEST Rai 5
+#EXTVLCOPT:http-user-agent=rainet/4.0.5
 https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=395276&output=7&forceUserAgent=raiplayappletv
 
 # 24 - Rai Movie
-#EXTINF:-1 tvg-id="raimovie.it",NO Rai Movie
+#EXTINF:-1 tvg-id="raimovie.it",TEST Rai Movie
+#EXTVLCOPT:http-user-agent=rainet/4.0.5
 https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=747002&output=7&forceUserAgent=raiplayappletv
 
 # 25 - Rai Premium
-#EXTINF:-1 tvg-id="raipremium.it",NO Rai Premium
+#EXTINF:-1 tvg-id="raipremium.it",TEST Rai Premium
+#EXTVLCOPT:http-user-agent=rainet/4.0.5
 https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=746992&output=7&forceUserAgent=raiplayappletv
 
 # 26 - Cielo
@@ -150,11 +154,13 @@ https://live03-col.msf.cdn.mediaset.net/live/ch-kb/kb-clr.isml/manifest.mpd
 https://d1pmpe0hs35ka5.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-39hsskpppgf72/K2_IT.m3u8
 
 # 41 - Rai Gulp
-#EXTINF:-1 tvg-id="raigulp.it",NO Rai Gulp
+#EXTINF:-1 tvg-id="raigulp.it",TEST Rai Gulp
+#EXTVLCOPT:http-user-agent=rainet/4.0.5
 https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=746953&output=7&forceUserAgent=raiplayappletv
 
 # 42 - Rai Yoyo
-#EXTINF:-1 tvg-id="raiyoyo.it",NO Rai Yoyo
+#EXTINF:-1 tvg-id="raiyoyo.it",TEST Rai Yoyo
+#EXTVLCOPT:http-user-agent=rainet/4.0.5
 https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=746899&output=7&forceUserAgent=raiplayappletv
 
 # 43 - Frisbee
@@ -196,7 +202,8 @@ https://live03-col.msf.cdn.mediaset.net/live/ch-kf/kf-clr.isml/manifest.mpd
 https://d2j2nqgg7bzth.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-02k1gv1j0ufwn/DMAX_IT.m3u8
 
 # 51 - Rai Storia
-#EXTINF:-1 tvg-id="raistoria.it",NO Rai Storia
+#EXTINF:-1 tvg-id="raistoria.it",TEST Rai Storia
+#EXTVLCOPT:http-user-agent=rainet/4.0.5
 https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=746990&output=7&forceUserAgent=raiplayappletv
 
 # 52 - Mediaset Extra
@@ -209,11 +216,13 @@ https://live03-col.msf.cdn.mediaset.net/live/ch-kq/kq-clr.isml/manifest.mpd
 https://d1tidto9vz737l.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-joaw4f4kh2en1/HGTV_IT.m3u8
 
 # 54 - Rai Scuola
-#EXTINF:-1 tvg-id="raiscuola.it",NO Rai Scuola
+#EXTINF:-1 tvg-id="raiscuola.it",TEST Rai Scuola
+#EXTVLCOPT:http-user-agent=rainet/4.0.5
 https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=747011&output=7&forceUserAgent=raiplayappletv
 
 # 55 - Rai Sport + HD
-#EXTINF:-1 tvg-id="raisport.it",NO Rai Sport + HD
+#EXTINF:-1 tvg-id="raisport.it",TEST Rai Sport + HD
+#EXTVLCOPT:http-user-agent=rainet/4.0.5
 https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=358025&output=7&forceUserAgent=raiplayappletv
 
 # 56 - Turbo
@@ -258,7 +267,8 @@ https://4c4b867c89244861ac216426883d1ad0.msvdn.net/live/S85984808/sMO0tz9Sr2Rk/p
 https://radioitaliatv.akamaized.net/hls/live/2093117/RadioitaliaTV/master.m3u8
 
 # 66 - Rai 4K
-#EXTINF:-1 tvg-id="rai4k.it",NO Rai 4K
+#EXTINF:-1 tvg-id="rai4k.it",TEST Rai 4K
+#EXTVLCOPT:http-user-agent=rainet/4.0.5
 https://raievent10-elem-live.akamaized.net/hls/live/619189/raievent10/raievent10/playlist.m3u8
 
 # 67 - Padre Pio TV
@@ -270,7 +280,8 @@ https://600f07e114306.streamlock.net/PadrePioTV/livestream/playlist.m3u8
 https://kk.fluid.stream/KKMulti/smil:KissKissTV.smil/playlist.m3u8
 
 # 69 - Rai Radio 2 Visual
-#EXTINF:-1 tvg-id="rairadio2.it",NO Rai Radio 2 Visual
+#EXTINF:-1 tvg-id="rairadio2.it",TEST Rai Radio 2 Visual
+#EXTVLCOPT:http-user-agent=rainet/4.0.5
 https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=5674080&output=7&forceUserAgent=raiplayappletv
 
 # 70 - RTL 102.5 News
