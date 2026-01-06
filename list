@@ -5,7 +5,7 @@
 https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=2606803&output=7&forceUserAgent=raiplayappletv
 
 # 2 - Rai 2
-#EXTINF:-1 tvg-id="rai2.it",TEST2 Rai 2
+#EXTINF:-1 tvg-id="rai2.it",TEST 2 Rai 2
 # NO https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=308718&output=7&forceUserAgent=raiplayappletv
 https://streamcdnb3-8e7439fdb1694c8da3a0fd63e4dda518.msvdn.net/raidue1/hls/playlist_ma_1800-5000.m3u8?baseuri=%2Fraidue1%2Fhls%2F&tstart=0&tend=1767720712&tof=86400&tk2=9745755aaa39a804944013770027c836ae251d33fc62fa227395bc7d7d49200c
 
