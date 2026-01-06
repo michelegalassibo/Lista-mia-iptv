@@ -1,86 +1,245 @@
 #EXTM3U
 
-########## RAI ##########
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/it/9/9f/Rai_4K_logo.svg" group-title="Rai",Rai 4K (HbbTV)
-https://raievent10-elem-live.akamaized.net/hls/live/619189/raievent10/raievent10/playlist.m3u8
+# 1 - Rai 1
+#EXTINF:-1 tvg-id="rai1.it",Rai 1
+http://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=2606803&output=7&forceUserAgent=raiplayappletv
 
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/it/1/15/Rai_Sport_2022_logo.svg" group-title="Rai",Rai Sport + HD
-http://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=358025&output=7&forceUserAgent=raiplayappletv
+# 2 - Rai 2
+#EXTINF:-1 tvg-id="rai2.it",Rai 2
+http://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=308718&output=7&forceUserAgent=raiplayappletv
 
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/it/5/58/Rai_Radio2_logo_2018.svg" group-title="Rai Radio",Rai Radio 2 Visual
-http://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=5674080&output=7&forceUserAgent=raiplayappletv
+# 3 - Rai 3
+#EXTINF:-1 tvg-id="rai3.it",Rai 3
+http://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=308709&output=7&forceUserAgent=raiplayappletv
 
-########## MEDIASET ##########
-#EXTINF:-1 tvg-logo="https://seeklogo.com/images/C/cine34-logo-1C050F8E60-seeklogo.com.png" group-title="Mediaset",Cine34
+# 4 - Rete 4
+#EXTINF:-1 tvg-id="rete4.it",Rete 4
+https://live03-col.msf.cdn.mediaset.net/live/ch-r4/r4-clr.isml/manifest.mpd
+
+# 5 - Canale 5
+#EXTINF:-1 tvg-id="canale5.it",Canale 5
+https://live03-col.msf.cdn.mediaset.net/live/ch-c5/c5-clr.isml/manifest.mpd
+
+# 6 - Italia 1
+#EXTINF:-1 tvg-id="italia1.it",Italia 1
+https://live03-col.msf.cdn.mediaset.net/live/ch-i1/i1-clr.isml/manifest.mpd
+
+# 7 - La7
+#EXTINF:-1 tvg-id="la7.it",La7
+https://d3749synfikwkv.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-74ylxpgd78bpb/Live.m3u8
+
+# 7d - La7d
+#EXTINF:-1 tvg-id="la7d.it",La7d
+https://d15umi5iaezxgx.cloudfront.net/LA7D/CLN/HLS/Live.m3u8
+
+# 8 - TV8
+#EXTINF:-1 tvg-id="tv8.it",TV8
+https://hlslive-web-gcdn-skycdn-it.akamaized.net/TACT/11223/tv8web/master.m3u8
+
+# 9 - NOVE
+#EXTINF:-1 tvg-id="nove.it",NOVE
+https://d31mw7o1gs0dap.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-y5pbi2sq9r609/NOVE_IT.m3u8
+
+# 20 - 20
+#EXTINF:-1 tvg-id="20.it",20
+https://live03-col.msf.cdn.mediaset.net/live/ch-lb/lb-clr.isml/manifest.mpd
+
+# 21 - Rai 4
+#EXTINF:-1 tvg-id="rai4.it",Rai 4
+http://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=746966&output=7&forceUserAgent=raiplayappletv
+
+# 22 - Iris
+#EXTINF:-1 tvg-id="iris.it",Iris
+https://live03-col.msf.cdn.mediaset.net/live/ch-ki/ki-clr.isml/manifest.mpd
+
+# 23 - Rai 5
+#EXTINF:-1 tvg-id="rai5.it",Rai 5
+http://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=395276&output=7&forceUserAgent=raiplayappletv
+
+# 24 - Rai Movie
+#EXTINF:-1 tvg-id="raimovie.it",Rai Movie
+http://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=747002&output=7&forceUserAgent=raiplayappletv
+
+# 25 - Rai Premium
+#EXTINF:-1 tvg-id="raipremium.it",Rai Premium
+http://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=746992&output=7&forceUserAgent=raiplayappletv
+
+# 26 - Cielo
+#EXTINF:-1 tvg-id="cielo.it",Cielo
+https://hlslive-web-gcdn-skycdn-it.akamaized.net/TACT/11219/cieloweb/master.m3u8
+
+# 27 - Twenty Seven
+#EXTINF:-1 tvg-id="twentyseven.it",Twenty Seven
+https://live03-col.msf.cdn.mediaset.net/live/ch-ts/ts-clr.isml/manifest.mpd
+
+# 28 - TV2000
+#EXTINF:-1 tvg-id="tv2000.it",TV2000
+https://hls-live-tv2000.akamaized.net/hls/live/2028510/tv2000/master.m3u8
+
+# 29 - La 5
+#EXTINF:-1 tvg-id="la5.it",La 5
+https://live03-col.msf.cdn.mediaset.net/live/ch-ka/ka-clr.isml/manifest.mpd
+
+# 30 - Real Time
+#EXTINF:-1 tvg-id="realtime.it",Real Time
+https://d3562mgijzx0zq.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-kizqtzpvvl3i8/Realtime_IT.m3u8
+
+# 31 - QVC
+#EXTINF:-1 tvg-id="qvc.it",QVC
+https://qrg.akamaized.net/hls/live/2017383/lsqvc1it/master.m3u8
+
+# 32 - Food Network
+#EXTINF:-1 tvg-id="foodnetwork.it",Food Network
+https://dk3okdd5036kz.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-o4pw0nc02sthz/Foodnetwork_IT.m3u8
+
+# 33 - Cine34
+#EXTINF:-1 tvg-id="cine34.it",Cine34
 https://live03-col.msf.cdn.mediaset.net/live/ch-b6/b6-clr.isml/manifest.mpd
 
-########## DISCOVERY ##########
-#EXTINF:-1 tvg-logo="https://seeklogo.com/images/G/giallo-tv-logo-87DDED1B4C-seeklogo.com.png" group-title="Discovery",Giallo
+# 34 - FOCUS
+#EXTINF:-1 tvg-id="focus.it",FOCUS
+https://live03-col.msf.cdn.mediaset.net/live/ch-fu/fu-clr.isml/manifest.mpd
+
+# 35 - RTL 102.5
+#EXTINF:-1 tvg-id="rtl1025.it",RTL 102.5
+https://dd782ed59e2a4e86aabf6fc508674b59.msvdn.net/live/S97044836/tbbP8T1ZRPBL/playlist_video.m3u8
+
+# 36 - Warner TV
+#EXTINF:-1 tvg-id="warnertv.it",Warner TV
+https://d24aqelmrau4kx.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-l1oas691aj7p2/WBTV_IT.m3u8
+
+# 37 - Giallo
+#EXTINF:-1 tvg-id="giallo.it",Giallo
 https://d9fqo6nfqlv2h.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-ulukbrgm1n3yb/Giallo_IT.m3u8
 
-########## RADIO & MUSIC TV ##########
-#EXTINF:-1 tvg-logo="https://seeklogo.com/images/R/radio-105-network-logo-2E5F607227-seeklogo.com.png" group-title="Radio TV",Radio 105 TV
-https://4c4b867c89244861ac216426883d1ad0.msvdn.net/live/S85984808/sMO0tz9Sr2Rk/playlist.m3u8
+# 38 - Top Crime
+#EXTINF:-1 tvg-id="topcrime.it",Top Crime
+https://live03-col.msf.cdn.mediaset.net/live/ch-lt/lt-clr.isml/manifest.mpd
 
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/it/8/81/Radio_Monte_Carlo_logo.png" group-title="Radio TV",Radio Montecarlo TV
-https://dd782ed59e2a4e86aabf6fc508674b59.msvdn.net/live/S3160845/0tuSetc8UFkF/playlist_video.m3u8
+# 39 - Boing
+#EXTINF:-1 tvg-id="boing.it",Boing
+https://live03-col.msf.cdn.mediaset.net/live/ch-kb/kb-clr.isml/manifest.mpd
 
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/it/f/f4/R101_logo_2016.png" group-title="Radio TV",R101 TV
-https://live03-col.msr.cdn.mediaset.net/live/ch-er/er-clr.isml/manifest.mpd
+# 40 - K2
+#EXTINF:-1 tvg-id="k2.it",K2
+https://d1pmpe0hs35ka5.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-39hsskpppgf72/K2_IT.m3u8
 
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/it/3/3e/Virgin_Radio_TV_logo.png" group-title="Radio TV",Virgin Radio TV
-https://live03-col.msr.cdn.mediaset.net/live/ch-ew/ew-clr.isml/manifest.mpd
-
-########## TUTTI GLI ALTRI CANALI ##########
-#EXTINF:-1 group-title="Rai",Rai 1
-http://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=2606803&output=7&forceUserAgent=raiplayappletv
-#EXTINF:-1 group-title="Rai",Rai 2
-http://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=308718&output=7&forceUserAgent=raiplayappletv
-#EXTINF:-1 group-title="Rai",Rai 3
-http://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=308709&output=7&forceUserAgent=raiplayappletv
-#EXTINF:-1 group-title="Rai",Rai 5
-http://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=395276&output=7&forceUserAgent=raiplayappletv
-#EXTINF:-1 group-title="Rai",Rai Premium
-http://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=746992&output=7&forceUserAgent=raiplayappletv
-#EXTINF:-1 group-title="Rai",Rai Gulp
+# 41 - Rai Gulp
+#EXTINF:-1 tvg-id="raigulp.it",Rai Gulp
 http://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=746953&output=7&forceUserAgent=raiplayappletv
-#EXTINF:-1 group-title="Rai",Rai Yoyo
+
+# 42 - Rai Yoyo
+#EXTINF:-1 tvg-id="raiyoyo.it",Rai Yoyo
 http://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=746899&output=7&forceUserAgent=raiplayappletv
-#EXTINF:-1 group-title="Rai",Rai News 24
+
+# 43 - Frisbee
+#EXTINF:-1 tvg-id="frisbee.it",Frisbee
+https://d6m7lubks416z.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d/Frisbee_IT.m3u8
+
+# 44 - Cartoonito
+#EXTINF:-1 tvg-id="cartoonito.it",Cartoonito
+https://live03-col.msf.cdn.mediaset.net/live/ch-la/la-clr.isml/manifest.mpd
+
+# 45 - Super!
+#EXTINF:-1 tvg-id="super.it",Super!
+https://vimnitaly.akamaized.net/hls/live/2094034/super/master.m3u8
+
+# 46 - Rai News 24
+#EXTINF:-1 tvg-id="rainews24.it",Rai News 24
 http://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=1&output=7&forceUserAgent=raiplayappletv
-#EXTINF:-1 group-title="Rai",Rai Storia
+
+# 47 - Italia 2
+#EXTINF:-1 tvg-id="italia2.it",Italia 2
+https://live03-col.msf.cdn.mediaset.net/live/ch-i2/i2-clr.isml/manifest.mpd
+
+# 48 - Sky TG24
+#EXTINF:-1 tvg-id="skytg24.it",Sky TG24
+https://hlslive-web-gcdn-skycdn-it.akamaized.net/TACT/12221/web/master.m3u8
+
+# 49 - TGCOM 24
+#EXTINF:-1 tvg-id="tgcom24.it",TGCOM 24
+https://live03-col.msf.cdn.mediaset.net/live/ch-kf/kf-clr.isml/manifest.mpd
+
+# 50 - DMAX
+#EXTINF:-1 tvg-id="dmax.it",DMAX
+https://d2j2nqgg7bzth.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-02k1gv1j0ufwn/DMAX_IT.m3u8
+
+# 51 - Rai Storia
+#EXTINF:-1 tvg-id="raistoria.it",Rai Storia
 http://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=746990&output=7&forceUserAgent=raiplayappletv
-#EXTINF:-1 group-title="Rai",Rai Scuola
+
+# 52 - Mediaset Extra
+#EXTINF:-1 tvg-id="mediasetextra.it",Mediaset Extra
+https://live03-col.msf.cdn.mediaset.net/live/ch-kq/kq-clr.isml/manifest.mpd
+
+# 53 - HGTV - Home&Garden
+#EXTINF:-1 tvg-id="hgtv.it",HGTV - Home&Garden
+https://d1tidto9vz737l.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-joaw4f4kh2en1/HGTV_IT.m3u8
+
+# 54 - Rai Scuola
+#EXTINF:-1 tvg-id="raiscuola.it",Rai Scuola
 http://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=747011&output=7&forceUserAgent=raiplayappletv
 
-#EXTINF:-1 group-title="Mediaset",Rete 4
-https://live03-col.msf.cdn.mediaset.net/live/ch-r4/r4-clr.isml/manifest.mpd
-#EXTINF:-1 group-title="Mediaset",Canale 5
-https://live03-col.msf.cdn.mediaset.net/live/ch-c5/c5-clr.isml/manifest.mpd
-#EXTINF:-1 group-title="Mediaset",Italia 1
-https://live03-col.msf.cdn.mediaset.net/live/ch-i1/i1-clr.isml/manifest.mpd
-#EXTINF:-1 group-title="Mediaset",Italia 2
-https://live03-col.msf.cdn.mediaset.net/live/ch-i2/i2-clr.isml/manifest.mpd
-#EXTINF:-1 group-title="Mediaset",20
-https://live03-col.msf.cdn.mediaset.net/live/ch-lb/lb-clr.isml/manifest.mpd
-#EXTINF:-1 group-title="Mediaset",Iris
-https://live03-col.msf.cdn.mediaset.net/live/ch-ki/ki-clr.isml/manifest.mpd
-#EXTINF:-1 group-title="Mediaset",La 5
-https://live03-col.msf.cdn.mediaset.net/live/ch-ka/ka-clr.isml/manifest.mpd
-#EXTINF:-1 group-title="Mediaset",FOCUS
-https://live03-col.msf.cdn.mediaset.net/live/ch-fu/fu‑clr.isml/manifest.mpd
-#EXTINF:-1 group-title="Mediaset",Top Crime
-https://live03-col.msf.cdn.mediaset.net/live/ch-lt/lt‑clr.isml/manifest.mpd
-#EXTINF:-1 group-title="Mediaset",Boing
-https://live03-col.msf.cdn.mediaset.net/live/ch-kb/kb‑clr.isml/manifest.mpd
-#EXTINF:-1 group-title="Mediaset",Cartoonito
-https://live03-col.msf.cdn.mediaset.net/live/ch-la/la‑clr.isml/manifest.mpd
+# 55 - Rai Sport + HD
+#EXTINF:-1 tvg-id="raisport.it",Rai Sport + HD
+http://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=358025&output=7&forceUserAgent=raiplayappletv
 
-#EXTINF:-1 group-title="Sky/Altri",TV8
-https://hlslive‑web‑gcdn‑skycdn‑it.akamaized.net/TACT/11223/tv8web/master.m3u8
-#EXTINF:-1 group-title="Sky/Altri",Cielo
-https://hlslive‑web‑gcdn‑skycdn‑it.akamaized.net/TACT/11219/cieloweb/master.m3u8
-#EXTINF:-1 group-title="Sky/Altri",LA7
-https://d3749synfikwkv.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc‑74ylxpgd78bpb/Live.m3u8
-#EXTINF:-1 group-title="Sky/Altri",LA7d
-https://d15umi5iaezxgx.cloudfront.net/LA7D/CLN/HLS/Live.m3u8
+# 56 - Turbo
+#EXTINF:-1 tvg-id="turbo.it",Turbo
+https://d205m6k582pec4.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-asg5puyzdtnqu/Motortrend_IT.m3u8
+
+# 57 - Sportitalia
+#EXTINF:-1 tvg-id="sportitalia.it",Sportitalia
+https://sportitaliaamd.akamaized.net/live/Sportitalia/hls/F59D8EB0332E783633CDDE8E265844975635D24F/index.m3u8
+
+# 58 - Donna TV
+#EXTINF:-1 tvg-id="donnatv.it",Donna TV
+https://sportitaliaamd.akamaized.net/live/Donna_TV/hls/42EB42E58EA44362045EFEA804E3FCF0DB33C481/index.m3u8
+
+# 59 - Supertennis
+#EXTINF:-1 tvg-id="supertennis.it",Supertennis
+https://live-embed.supertennix.hiway.media/restreamer/supertennix_client/gpu-a-c0-16/restreamer/rtmp/hls/h24_supertennix/manifest.m3u8
+
+# 60 - ALMA TV
+#EXTINF:-1 tvg-id="alma.it",ALMA TV
+https://streaming.softwarecreation.it/AlmaTv/AlmaTv/playlist.m3u8
+
+# 61 - Radio 105 TV
+#EXTINF:-1 tvg-id="radio105.it",Radio 105 TV
+https://live03-col.msr.cdn.mediaset.net/live/ch-ec/ec-clr.isml/manifest.mpd
+
+# 62 - R101 TV
+#EXTINF:-1 tvg-id="r101.it",R101 TV
+https://live03-col.msr.cdn.mediaset.net/live/ch-er/er-clr.isml/manifest.mpd
+
+# 63 - BOM CHANNEL
+#EXTINF:-1 tvg-id="bomchannel.it",BOM CHANNEL
+https://5f22d76e220e1.streamlock.net/canale6/canale6/playlist.m3u8
+
+# 64 - Deejay TV
+#EXTINF:-1 tvg-id="deejaytv.it",Deejay TV
+https://4c4b867c89244861ac216426883d1ad0.msvdn.net/live/S85984808/sMO0tz9Sr2Rk/playlist.m3u8
+
+# 65 - RadioItaliaTV
+#EXTINF:-1 tvg-id="radioitalia.it",Radio Italia TV
+https://radioitaliatv.akamaized.net/hls/live/2093117/RadioitaliaTV/master.m3u8
+
+# 66 - Rai 4K
+#EXTINF:-1 tvg-id="rai4k.it",Rai 4K
+https://raievent10-elem-live.akamaized.net/hls/live/619189/raievent10/raievent10/playlist.m3u8
+
+# 67 - Padre Pio TV
+#EXTINF:-1 tvg-id="padrepiotv.it",Padre Pio TV
+https://600f07e114306.streamlock.net/PadrePioTV/livestream/playlist.m3u8
+
+# 68 - RADIO KISS KISS TV
+#EXTINF:-1 tvg-id="radiokisskiss.it",RADIO KISS KISS TV
+https://kk.fluid.stream/KKMulti/smil:KissKissTV.smil/playlist.m3u8
+
+# 69 - Rai Radio 2 Visual
+#EXTINF:-1 tvg-id="rairadio2.it",Rai Radio 2 Visual
+http://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=5674080&output=7&forceUserAgent=raiplayappletv
+
+# 70 - RTL 102.5 News
+#EXTINF:-1 tvg-id="rtl1025news.it",RTL 102.5 News
+https://dd782ed59e2a4e86aabf6fc508674b59.msvdn.net/live/S38122967/2lyQRIAAGgRR/playlist_video.m3u8
