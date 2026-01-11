@@ -8,6 +8,7 @@
 # DA TESTARE
 # https://github.com/Free-TV/IPTV
 # https://github.com/iptv-org/iptv -> https://iptv-org.github.io/iptv/countries/iq.m3u
+# vedere liste IT https://github.com/iptv-org/iptv/tree/master/streams
 
 # sito per test streaming https://iptvplayer.stream/
 
@@ -46,14 +47,9 @@ https://live03-col.msf.cdn.mediaset.net/live/ch-i1/i1-clr.isml/manifest.mpd
 https://jmp2.uk/stvp-ITBD1500002NL
 #logo http://odmsto.com/uploads/tv_image/sm/la7.png
 
-# 7d - La7d (la 7 cinema?)
-#EXTINF:-1 tvg-id="la7d.it",TEST La7 d
-https://d15umi5iaezxgx.cloudfront.net/LA7D/CLN/HLS-B/Live_1280x720_.m3u8
-# la7 cinema che non va https://viamotionhsi.netplus.ch/live/eds/la7d/browser-HLS8/la7d.m3u8
-
 # 8 - TV8
 #EXTINF:-1 tvg-id="tv8.it",TEST TV8
-https://hlslive-web-gcdn-skycdn-it.akamaized.net/TACT/11223/tv8web/master.m3u8?hdnea=st=1701861650~exp=1765449000~acl=/*~hmac=84c9f3f71e57b13c3a67afa8b29a8591ea9ed84bf786524399545d94be1ec04d
+https://mytivu.it/Application/Channels/TV8.php
 
 # 9 - NOVE
 #EXTINF:-1 tvg-id="nove.it",NOVE
@@ -89,7 +85,7 @@ https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=746992&output=7&forc
 
 # 26 - Cielo
 #EXTINF:-1 tvg-id="cielo.it",TEST Cielo
-https://hlslive-web-gcdn-skycdn-it.akamaized.net/TACT/11219/cieloweb/master.m3u8?hdnea=st=1701861650~exp=1765449000~acl=/*~hmac=84c9f3f71e57b13c3a67afa8b29a8591ea9ed84bf786524399545d94be1ec04d
+https://mytivu.it/Application/Channels/Cielo.php
 
 # 27 - Twenty Seven
 #EXTINF:-1 tvg-id="twentyseven.it",Twenty Seven
@@ -100,195 +96,201 @@ https://live03-col.msf.cdn.mediaset.net/live/ch-ts/ts-clr.isml/manifest.mpd
 #EXTINF:-1 tvg-id="tv2000.it",TV2000
 https://hls-live-tv2000.akamaized.net/hls/live/2028510/tv2000/master.m3u8
 
-# 29 - La 5
+# 29 - La7 Cinema
+#EXTINF:-1 tvg-id="la7.it",La7 Cinema
+https://viamotionhsi.netplus.ch/live/eds/la7d/browser-HLS8/la7d.m3u8
+
+# 30 - La 5
 #EXTINF:-1 tvg-id="la5.it",La 5
 #EXTVLCOPT:http-user-agent=HbbTV/1.6.1
 https://live03-col.msf.cdn.mediaset.net/live/ch-ka/ka-clr.isml/manifest.mpd
 
-# 30 - Real Time
+# 31 - Real Time
 #EXTINF:-1 tvg-id="realtime.it",Real Time
 https://d3562mgijzx0zq.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-kizqtzpvvl3i8/Realtime_IT.m3u8
 
-# 31 - QVC
+# 32 - QVC
 #EXTINF:-1 tvg-id="qvc.it",QVC
 https://qrg.akamaized.net/hls/live/2017383/lsqvc1it/master.m3u8
 
-# 32 - Food Network
+# 33 - Food Network
 #EXTINF:-1 tvg-id="foodnetwork.it",Food Network
 https://dk3okdd5036kz.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-o4pw0nc02sthz/Foodnetwork_IT.m3u8
 
-# 33 - Cine34
+# 34 - Cine34
 #EXTINF:-1 tvg-id="cine34.it",Cine34
 #EXTVLCOPT:http-user-agent=HbbTV/1.6.1
 https://live03-col.msf.cdn.mediaset.net/live/ch-b6/b6-clr.isml/manifest.mpd
 
-# 34 - FOCUS
+# 35 - FOCUS
 #EXTINF:-1 tvg-id="focus.it",FOCUS
 #EXTVLCOPT:http-user-agent=HbbTV/1.6.1
 https://live03-col.msf.cdn.mediaset.net/live/ch-fu/fu-clr.isml/manifest.mpd
 
-# 35 - RTL 102.5
+# 36 - RTL 102.5
 #EXTINF:-1 tvg-id="rtl1025.it",RTL 102.5
 https://dd782ed59e2a4e86aabf6fc508674b59.msvdn.net/live/S97044836/tbbP8T1ZRPBL/playlist_video.m3u8
 
-# 36 - Warner TV
-#EXTINF:-1 tvg-id="warnertv.it",Warner TV
+# 37 - Discovery
+#EXTINF:-1 tvg-id="discovery.it",Discovery
 https://d24aqelmrau4kx.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-l1oas691aj7p2/WBTV_IT.m3u8
 
-# 37 - Giallo
+# 38 - Giallo
 #EXTINF:-1 tvg-id="giallo.it",Giallo
 https://d9fqo6nfqlv2h.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-ulukbrgm1n3yb/Giallo_IT.m3u8
 
-# 38 - Top Crime
+# 39 - Top Crime
 #EXTINF:-1 tvg-id="topcrime.it",Top Crime
 #EXTVLCOPT:http-user-agent=HbbTV/1.6.1
 https://live03-col.msf.cdn.mediaset.net/live/ch-lt/lt-clr.isml/manifest.mpd
 
-# 39 - Boing
+# 40 - Boing
 #EXTINF:-1 tvg-id="boing.it",Boing
 #EXTVLCOPT:http-user-agent=HbbTV/1.6.1
 https://live03-col.msf.cdn.mediaset.net/live/ch-kb/kb-clr.isml/manifest.mpd
 
-# 40 - K2
+# 41 - K2
 #EXTINF:-1 tvg-id="k2.it",K2
 https://d1pmpe0hs35ka5.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-39hsskpppgf72/K2_IT.m3u8
 
-# 41 - Rai Gulp
+# 42 - Rai Gulp
 #EXTINF:-1 tvg-id="raigulp.it",Rai Gulp
 #EXTVLCOPT:http-user-agent=rainet/4.0.5
 https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=746953&output=7&forceUserAgent=raiplayappletv
 
-# 42 - Rai Yoyo
+# 43 - Rai Yoyo
 #EXTINF:-1 tvg-id="raiyoyo.it",Rai Yoyo
 #EXTVLCOPT:http-user-agent=rainet/4.0.5
 https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=746899&output=7&forceUserAgent=raiplayappletv
 
-# 43 - Frisbee
+# 44 - Frisbee
 #EXTINF:-1 tvg-id="frisbee.it",Frisbee
 #EXTVLCOPT:http-user-agent=HbbTV/1.6.1
 https://d6m7lubks416z.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-zmbstsedxme9s/Frisbee_IT.m3u8
 
-# 44 - Cartoonito
+# 45 - NO Boing Plus
+#EXTINF:-1 tvg-id="boing.it",Boing Plus
+#EXTVLCOPT:http-user-agent=HbbTV/1.6.1
+https://live03-col.msf.cdn.mediaset.net/live/ch-kb/kb-clr.isml/manifest.mpd
+
+# 46 - Cartoonito
 #EXTINF:-1 tvg-id="cartoonito.it",Cartoonito
 #EXTVLCOPT:http-user-agent=HbbTV/1.6.1
 https://live03-col.msf.cdn.mediaset.net/live/ch-la/la-clr.isml/manifest.mpd
 
-# 45 - Super!
+# 47 - Super!
 #EXTINF:-1 tvg-id="super.it",TEST Super!
 #EXTVLCOPT:http-user-agent=HbbTV/1.6.1
-https://vimnitaly.akamaized.net/hls/live/2094034/super/master-2500.m3u8
+https://495c5a85d9074f29acffeaea9e0215eb.msvdn.net/super/super_main/super_main_hbbtv/playlist.m3u8
 
-# 46 - Rai News 24
+# 48 - Rai News 24
 #EXTINF:-1 tvg-id="rainews24.it",Rai News 24
 # NO https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=1&output=7&forceUserAgent=raiplayappletv
 https://streamcdnb2-8e7439fdb1694c8da3a0fd63e4dda518.msvdn.net/rainews1/hls/playlist_mo.m3u8
 
-# 47 - Italia 2
+# 49 - Italia 2
 #EXTINF:-1 tvg-id="italia2.it",Italia 2
 #EXTVLCOPT:http-user-agent=HbbTV/1.6.1
 https://live03-col.msf.cdn.mediaset.net/live/ch-i2/i2-clr.isml/manifest.mpd
 
-# 48 - Sky TG24
-#EXTINF:-1 tvg-id="skytg24.it",TEST Sky TG24
+# 50 - Sky TG24
+#EXTINF:-1 tvg-id="skytg24.it",NO Sky TG24
 https://hlslive-web-gcdn-skycdn-it.akamaized.net/TACT/12221/web/master.m3u8?hdnts=st=1701861650~exp=1765449000~acl=/*~hmac=84c9f3f71e57b13c3a67afa8b29a8591ea9ed84bf786524399545d94be1ec04d
 
-# 49 - TGCOM 24
+# 51 - TGCOM 24
 #EXTINF:-1 tvg-id="tgcom24.it",TGCOM 24
 #EXTVLCOPT:http-user-agent=HbbTV/1.6.1
 https://live03-col.msf.cdn.mediaset.net/live/ch-kf/kf-clr.isml/manifest.mpd
 
-# 50 - DMAX
+# 52 - DMAX
 #EXTINF:-1 tvg-id="dmax.it",DMAX
 https://d2j2nqgg7bzth.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-02k1gv1j0ufwn/DMAX_IT.m3u8
 
-# 51 - Rai Storia
+# 54 - Rai Storia
 #EXTINF:-1 tvg-id="raistoria.it",Rai Storia
 #EXTVLCOPT:http-user-agent=rainet/4.0.5
 https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=746990&output=7&forceUserAgent=raiplayappletv
 
-# 52 - Mediaset Extra
+# 55 - Mediaset Extra
 #EXTINF:-1 tvg-id="mediasetextra.it",Mediaset Extra
 #EXTVLCOPT:http-user-agent=HbbTV/1.6.1
 https://live03-col.msf.cdn.mediaset.net/live/ch-kq/kq-clr.isml/manifest.mpd
 
-# 53 - HGTV - Home&Garden
+# 56 - HGTV - Home&Garden
 #EXTINF:-1 tvg-id="hgtv.it",HGTV - Home&Garden
 https://d1tidto9vz737l.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-joaw4f4kh2en1/HGTV_IT.m3u8
 
-# 54 - Rai Scuola
+# 57 - Rai Scuola
 #EXTINF:-1 tvg-id="raiscuola.it",Rai Scuola
 #EXTVLCOPT:http-user-agent=rainet/4.0.5
 https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=747011&output=7&forceUserAgent=raiplayappletv
 
-# 55 - Rai Sport + HD
+# 58 - Rai Sport + HD
 #EXTINF:-1 tvg-id="raisport.it",Rai Sport + HD
 #EXTVLCOPT:http-user-agent=rainet/4.0.5
 https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=358025&output=7&forceUserAgent=raiplayappletv
 
-# 56 - Turbo
+# 59 - Turbo
 #EXTINF:-1 tvg-id="turbo.it",Turbo
 https://d205m6k582pec4.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-asg5puyzdtnqu/Motortrend_IT.m3u8
 
-# 57 - Sportitalia
-#EXTINF:-1 tvg-id="sportitalia.it",TEST Sportitalia
-https://di-kzbhv8pw.vo.lswcdn.net/sportitalia/sihd/playlist.m3u8
-
-# 58 - Donna TV
-#EXTINF:-1 tvg-id="donnatv.it",TEST Donna TV
-https://donnatv.grupposciscione.knoxstreaming.com/live/1080p/livestream_def.m3u8
-
-# 59 - Supertennis
-#EXTINF:-1 tvg-id="supertennis.it",NO Supertennis
-https://live-embed.supertennix.hiway.media/restreamer/supertennix_client/gpu-a-c0-16/restreamer/rtmp/hls/h24_supertennix/manifest.m3u8
-
-# 60 - ALMA TV
-#EXTINF:-1 tvg-id="alma.it",NO ALMA TV
-https://streaming.softwarecreation.it/AlmaTv/AlmaTv/playlist.m3u8
-
-# 61 - Radio 105 TV
+# 66 - Radio 105 TV
 #EXTINF:-1 tvg-id="radio105.it",Radio 105 TV
 #EXTVLCOPT:http-user-agent=HbbTV/1.6.1
 https://live03-col.msr.cdn.mediaset.net/live/ch-ec/ec-clr.isml/manifest.mpd
 
-# 62 - R101 TV
+# 67 - R101 TV
 #EXTINF:-1 tvg-id="r101.it",R101 TV
 https://live03-col.msr.cdn.mediaset.net/live/ch-er/er-clr.isml/manifest.mpd
 
-# 63 - BOM CHANNEL
-#EXTINF:-1 tvg-id="bomchannel.it",BOM CHANNEL
-https://5f22d76e220e1.streamlock.net/canale6/canale6/playlist.m3u8
-
-# 64 - Deejay TV
+# 69 - Deejay TV
 #EXTINF:-1 tvg-id="deejaytv.it",Deejay TV
 https://4c4b867c89244861ac216426883d1ad0.msvdn.net/live/S85984808/sMO0tz9Sr2Rk/playlist.m3u8
 
-# 65 - RadioItaliaTV
+# 70 - RadioItaliaTV
 #EXTINF:-1 tvg-id="radioitalia.it",Radio Italia TV
 https://radioitaliatv.akamaized.net/hls/live/2093117/RadioitaliaTV/master.m3u8
 
-# 66 - Rai 4K
+# 100 - Rai 4K
 #EXTINF:-1 tvg-id="rai4k.it",Rai 4K
 #EXTVLCOPT:http-user-agent=rainet/4.0.5
 https://raievent10-elem-live.akamaized.net/hls/live/619189/raievent10/raievent10/playlist.m3u8
 
-# 67 - Padre Pio TV
-#EXTINF:-1 tvg-id="padrepiotv.it",NO Padre Pio TV
-https://600f07e114306.streamlock.net/PadrePioTV/livestream/playlist.m3u8
-
-# 68 - RADIO KISS KISS TV
+# 158 - RADIO KISS KISS TV
 #EXTINF:-1 tvg-id="radiokisskiss.it",RADIO KISS KISS TV
 https://kk.fluid.stream/KKMulti/smil:KissKissTV.smil/playlist.m3u8
 
-# 69 - Rai Radio 2 Visual
+# 202 - Rai Radio 2 Visual
 #EXTINF:-1 tvg-id="rairadio2.it",Rai Radio 2 Visual
 #EXTVLCOPT:http-user-agent=rainet/4.0.5
 https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=5674080&output=7&forceUserAgent=raiplayappletv
 
-# 70 - RTL 102.5 News
+# 233 - RTL 102.5 News
 #EXTINF:-1 tvg-id="rtl1025news.it",RTL 102.5 News
 https://dd782ed59e2a4e86aabf6fc508674b59.msvdn.net/live/S38122967/2lyQRIAAGgRR/playlist_video.m3u8
 
-# 999 - 992 Sky News
+# 999 - 991 Sky News
 #EXTINF:-1 tvg-id="skynews.uk",Sky News
 https://d1bl6tskrpq9ze.cloudfront.net/hls/master.m3u8?ads.xumo_channelId=99992602&ads.xumo_streamId=99992602&ads.channelId=99992602&ads.ad_tag_id=118011&ads.csid=lgchannels_it_skynewsamericas_ssai&ads.channelName=skynews_it&ads.xumo_contentName=SkyNewsAmericas&ads.xumo_contentId=3867&ads.xumo_providerName=SkyNewsAmericas&ads.xumo_providerId=3867&ads.content_category=IAB1-7&ads.content_genre=television&ads.content_language=en&ads.content_rating=tv-pg&ads.coppa=0&ads.livestream=0&ads.prodq=1&ads.did=[IFA]&ads.lmt=[LMT]&ads.dnt=[DNS]&ads.us_privacy=[US_PRIVACY]&ads.gdpr=[GDPR]&ads.gdpr_consent=[GDPR_CONSENT]&ads.devicemake=[DEVICE_MAKE]&ads.devicemodel=[DEVICE_MODEL]&ads.country=[COUNTRY]&ads.fck=[FCK]&ads.viewsize=[VIEWSIZE]&ads.givn=[NONCE]&ads.app_name=[APP_NAME]&ads.app_bundle=[APP_BUNDLE]&ads.app_storeurl=[APP_STOREURL]
 
+# 9999 - 992 7 Gold
+#EXTINF:-1 tvg-id="7gold.it",TEST 7 Gold
+https://router.xdevel.com/video0s86-21/stream/playlist.m3u8
+
+#EXTINF:-1 tvg-id="7080TV.it@SD",TEST 70-80 TV (1080P)
+https://585b674743bbb.streamlock.net/9050/9050/playlist.m3u8
+
+#EXTINF:-1 tvg-id="ACISportTV.it@SD",TEST ACI Sport TV (1080p)
+https://webstream.multistream.it/memfs/e2cb3629-c1a2-495b-b43a-9eb386f04ed8.m3u8
+
+#EXTINF:-1 tvg-id="eTvRete7.it@SD",TEST èTv Rete 7 (720p)
+https://live.ipstream.it/etv/etv.stream/playlist.m3u8
+
+#EXTINF:-1 tvg-id="EuroIndieMusicChartTV.it@SD",TEST Euro Indie Music Chart TV (360p)
+http://178.33.224.197:1935/euroindiemusic/euroindiemusic/playlist.m3u8
+
+#EXTINF:-1 tvg-id="RadioBirikinaTV.it@SD",TEST Radio Birikina TV (720p) [Not 24/7]
+https://56b50ada2d659.streamlock.net/RadioBirikinaTV/livestream/playlist.m3u8
+
+#EXTINF:-1 tvg-id="SuperSix.it@SD",TEST SuperSix Lombardia (720p)
+https://5db313b643fd8.streamlock.net/SUPERSIXLombardia/SUPERSIXLombardia/playlist.m3u8
