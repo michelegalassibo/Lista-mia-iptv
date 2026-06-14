@@ -51,7 +51,7 @@ https://jmp2.uk/stvp-ITBD1500002NL
 https://mytivu.it/Application/Channels/TV8.php
 
 # 9 - NOVE
-#EXTINF:-1 tvg-id="nove.it",NOVE
+#EXTINF:-1 tvg-id="nove.it",NO NOVE
 https://d31mw7o1gs0dap.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-y5pbi2sq9r609/NOVE_IT.m3u8
 
 # 20 - 20
@@ -97,7 +97,7 @@ https://live03-col.msf.cdn.mediaset.net/live/ch-ts/ts-clr.isml/manifest.mpd
 https://hls-live-tv2000.akamaized.net/hls/live/2028510/tv2000/master.m3u8
 
 # 29 - La7 Cinema
-#EXTINF:-1 tvg-id="la7.it",La7 Cinema
+#EXTINF:-1 tvg-id="la7.it",NO La7 Cinema
 https://viamotionhsi.netplus.ch/live/eds/la7d/browser-HLS8/la7d.m3u8
 
 # 30 - La 5
@@ -132,11 +132,11 @@ https://live03-col.msf.cdn.mediaset.net/live/ch-fu/fu-clr.isml/manifest.mpd
 https://dd782ed59e2a4e86aabf6fc508674b59.msvdn.net/live/S97044836/tbbP8T1ZRPBL/playlist_video.m3u8
 
 # 37 - Discovery
-#EXTINF:-1 tvg-id="discovery.it",Discovery
+#EXTINF:-1 tvg-id="discovery.it",NO Discovery
 https://d24aqelmrau4kx.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-l1oas691aj7p2/WBTV_IT.m3u8
 
 # 38 - Giallo
-#EXTINF:-1 tvg-id="giallo.it",Giallo
+#EXTINF:-1 tvg-id="giallo.it",NO Giallo
 https://d9fqo6nfqlv2h.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-ulukbrgm1n3yb/Giallo_IT.m3u8
 
 # 39 - Top Crime
@@ -150,7 +150,7 @@ https://live03-col.msf.cdn.mediaset.net/live/ch-lt/lt-clr.isml/manifest.mpd
 https://live03-col.msf.cdn.mediaset.net/live/ch-kb/kb-clr.isml/manifest.mpd
 
 # 41 - K2
-#EXTINF:-1 tvg-id="k2.it",K2
+#EXTINF:-1 tvg-id="k2.it",NO K2
 https://d1pmpe0hs35ka5.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-39hsskpppgf72/K2_IT.m3u8
 
 # 42 - Rai Gulp
@@ -164,7 +164,7 @@ https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=746953&output=7&forc
 https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=746899&output=7&forceUserAgent=raiplayappletv
 
 # 44 - Frisbee
-#EXTINF:-1 tvg-id="frisbee.it",Frisbee
+#EXTINF:-1 tvg-id="frisbee.it",NO Frisbee
 #EXTVLCOPT:http-user-agent=HbbTV/1.6.1
 https://d6m7lubks416z.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-zmbstsedxme9s/Frisbee_IT.m3u8
 
@@ -179,7 +179,7 @@ https://live03-col.msf.cdn.mediaset.net/live/ch-la/la-clr.isml/manifest.mpd
 https://495c5a85d9074f29acffeaea9e0215eb.msvdn.net/super/super_main/super_main_hbbtv/playlist.m3u8
 
 # 48 - Rai News 24
-#EXTINF:-1 tvg-id="rainews24.it",Rai News 24
+#EXTINF:-1 tvg-id="rainews24.it",NO Rai News 24
 https://streamcdnb2-8e7439fdb1694c8da3a0fd63e4dda518.msvdn.net/rainews1/hls/playlist_mo.m3u8
 
 # 49 - Italia 2
@@ -197,7 +197,7 @@ https://hlslive-web-gcdn-skycdn-it.akamaized.net/TACT/12221/web/master.m3u8?hdnt
 https://live03-col.msf.cdn.mediaset.net/live/ch-kf/kf-clr.isml/manifest.mpd
 
 # 52 - DMAX
-#EXTINF:-1 tvg-id="dmax.it",DMAX
+#EXTINF:-1 tvg-id="dmax.it",NO DMAX
 https://d2j2nqgg7bzth.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-02k1gv1j0ufwn/DMAX_IT.m3u8
 
 # 54 - Rai Storia
@@ -211,7 +211,7 @@ https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=746990&output=7&forc
 https://live03-col.msf.cdn.mediaset.net/live/ch-kq/kq-clr.isml/manifest.mpd
 
 # 56 - HGTV - Home&Garden
-#EXTINF:-1 tvg-id="hgtv.it",HGTV - Home&Garden
+#EXTINF:-1 tvg-id="hgtv.it",NO HGTV - Home&Garden
 https://d1tidto9vz737l.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-joaw4f4kh2en1/HGTV_IT.m3u8
 
 # 57 - Rai Scuola
@@ -225,7 +225,7 @@ https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=747011&output=7&forc
 https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=358025&output=7&forceUserAgent=raiplayappletv
 
 # 59 - Turbo
-#EXTINF:-1 tvg-id="turbo.it",Turbo
+#EXTINF:-1 tvg-id="turbo.it",NO Turbo
 https://d205m6k582pec4.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-asg5puyzdtnqu/Motortrend_IT.m3u8
 
 # 66 - Radio 105 TV
