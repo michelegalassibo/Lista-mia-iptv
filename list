@@ -1,9 +1,10 @@
 #EXTM3U x-tvg-url="http://www.epg-guide.com/it.gz"
 
-# ultimo aggiornamento 110126 2303
+# ultimo aggiornamento 140626 1947
 
 # lista testata e filtrata il 060126 https://github.com/Tundrak/IPTV-Italia e https://raw.githubusercontent.com/Tundrak/IPTV-Italia/refs/heads/main/iptvita.m3u
 # lista filtrata il 061226 che contiene ancora tanti stream interessanti https://tivustream.website/urls/listm3u
+# lista usata il 140626 https://raw.githubusercontent.com/klougithub/TVITALIA-/refs/heads/main/iptvit.m3u
 
 # DA TESTARE
 # https://github.com/Free-TV/IPTV
@@ -51,14 +52,10 @@ https://jmp2.uk/stvp-ITBD1500002NL
 https://mytivu.it/Application/Channels/TV8.php
 
 # 9 - NOVE
-#EXTINF:-1 tvg-id="nove.it",NO NOVE
-#https://d31mw7o1gs0dap.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-y5pbi2sq9r609/NOVE_IT.m3u8
 # NUOVO 140626
 #EXTINF:-1 tvg-id="Nove.it"tvg-logo="https://raw.githubusercontent.com/klougithub/TVITALIA-/refs/heads/main/TVL/nove.png"tvg-chno="9"group-title="Discovery":http-user-agent="HbbTV/1.6.1",NOVE
 #EXTVLCOPT:http-user-agent=HbbTV/1.6.1
 https://streaming.aurora.enhanced.live/live/mpc/enl0eG1mLmVncmVzcy5mZDJ2eHI=/out/v1/IT_SIMULCAST/NOVE/CMAF/index.m3u8
-
-
 
 # 20 - 20
 #EXTINF:-1 tvg-id="20.it",20
@@ -89,9 +86,10 @@ https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=747002&output=7&forc
 https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=746992&output=7&forceUserAgent=raiplayappletv
 
 # 26 - Cielo
-#EXTINF:-1 tvg-id="cielo.it",NO Cielo
-#EXTVLCOPT:http-user-agent=rainet/4.0.5
-https://mytivu.it/Application/Channels/Cielo.php
+#140626
+#EXTINF:-1 tvg-id="CieloTv.it"tvg-logo="https://raw.githubusercontent.com/klougithub/TVITALIA-/refs/heads/main/TVL/cielo.png"tvg-chno="26"group-title="Sky":http-user-agent="HbbTV/1.6.1",Cielo
+#EXTVLCOPT:http-user-agent=HbbTV/1.6.1
+https://hlslive-web-gcdn-skycdn-it.akamaized.net/TACT/11219/cieloweb/master.m3u8?hdnts=st=1764666351~exp=1829466206~acl=/*~hmac=b0e9165b6c55027903ad103c8219f363d8765eb300c0d9a339e9767fc3509556
 
 # 27 - Twenty Seven
 #EXTINF:-1 tvg-id="twentyseven.it",Twenty Seven
@@ -103,8 +101,14 @@ https://live03-col.msf.cdn.mediaset.net/live/ch-ts/ts-clr.isml/manifest.mpd
 https://hls-live-tv2000.akamaized.net/hls/live/2028510/tv2000/master.m3u8
 
 # 29 - La7 Cinema
-#EXTINF:-1 tvg-id="la7.it",NO La7 Cinema
-https://viamotionhsi.netplus.ch/live/eds/la7d/browser-HLS8/la7d.m3u8
+#140626
+#EXTINF:-1 tvg-id="LA7 Cinema.it"tvg-logo="https://raw.githubusercontent.com/klougithub/TVITALIA-/refs/heads/main/TVL/LA7Cinema.png"tvg-chno="29"group-title="Altro":http-user-agent="HbbTV/1.6.1",LA7 Cinema
+#EXTVLCOPT:http-user-agent=HbbTV/1.6.1
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=a2b202e78a244da6876d5adbcf5d6a75:88c5efd5d7e49194cd780e773318f69d
+https://d15umi5iaezxgx.cloudfront.net/LA7D/DRM/DASH/Live.mpd
 
 # 30 - La 5
 #EXTINF:-1 tvg-id="la5.it",La 5
@@ -138,12 +142,16 @@ https://live03-col.msf.cdn.mediaset.net/live/ch-fu/fu-clr.isml/manifest.mpd
 https://dd782ed59e2a4e86aabf6fc508674b59.msvdn.net/live/S97044836/tbbP8T1ZRPBL/playlist_video.m3u8
 
 # 37 - Discovery
-#EXTINF:-1 tvg-id="discovery.it",NO Discovery
-https://d24aqelmrau4kx.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-l1oas691aj7p2/WBTV_IT.m3u8
+#140626
+#EXTINF:-1 tvg-id="RealTime.it"tvg-logo="https://raw.githubusercontent.com/klougithub/TVITALIA-/refs/heads/main/TVL/realtime.png"tvg-chno="31"group-title="Discovery":http-user-agent="HbbTV/1.6.1",Real Time
+#EXTVLCOPT:http-user-agent=HbbTV/1.6.1
+https://streaming.aurora.enhanced.live/live/mpc/enl0eG1mLmVncmVzcy5mZDJ2eHI=/out/v1/IT_SIMULCAST/REALTIME/CMAF/index.m3u8
 
 # 38 - Giallo
-#EXTINF:-1 tvg-id="giallo.it",NO Giallo
-https://d9fqo6nfqlv2h.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-ulukbrgm1n3yb/Giallo_IT.m3u8
+#140626
+#EXTINF:-1 tvg-id="GialloTV.it"tvg-logo="https://raw.githubusercontent.com/klougithub/TVITALIA-/refs/heads/main/TVL/giallo.png"tvg-chno="38"group-title="Discovery":http-user-agent="HbbTV/1.6.1",Giallo
+#EXTVLCOPT:http-user-agent=HbbTV/1.6.1
+https://streaming.aurora.enhanced.live/live/mpc/enl0eG1mLmVncmVzcy5mZDJ2eHI=/out/v1/IT_SIMULCAST/GIALLO/CMAF/index.m3u8
 
 # 39 - Top Crime
 #EXTINF:-1 tvg-id="topcrime.it",Top Crime
@@ -156,8 +164,12 @@ https://live03-col.msf.cdn.mediaset.net/live/ch-lt/lt-clr.isml/manifest.mpd
 https://live03-col.msf.cdn.mediaset.net/live/ch-kb/kb-clr.isml/manifest.mpd
 
 # 41 - K2
-#EXTINF:-1 tvg-id="k2.it",NO K2
-https://d1pmpe0hs35ka5.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-39hsskpppgf72/K2_IT.m3u8
+#140626
+#EXTINF:-1 tvg-id="K2.it"tvg-logo="https://raw.githubusercontent.com/klougithub/TVITALIA-/refs/heads/main/TVL/k2.png"tvg-chno="41"group-title="Discovery":http-user-agent="HbbTV/1.6.1",K2
+#EXTVLCOPT:http-user-agent=HbbTV/1.6.1
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","kid":"AQDzs30qOtJULXjQAP+R+g","k":"UH6tky/iXm8eO6D8OfxwQA"},{"kty":"oct","kid":"AQXUzpSoqBeWu73Gq0rYXg","k":"ydhOxLc1msrSK4V2SyTkzg"}]}
+https://alwaysdata-api.zappr.stream/k2.mpd
 
 # 42 - Rai Gulp
 #EXTINF:-1 tvg-id="raigulp.it",Rai Gulp
@@ -170,9 +182,12 @@ https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=746953&output=7&forc
 https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=746899&output=7&forceUserAgent=raiplayappletv
 
 # 44 - Frisbee
-#EXTINF:-1 tvg-id="frisbee.it",NO Frisbee
+#140626
+#EXTINF:-1 tvg-id="Frisbee.it"tvg-logo="https://raw.githubusercontent.com/klougithub/TVITALIA-/refs/heads/main/TVL/frisbee.png"tvg-chno="44"group-title="Discovery":http-user-agent="HbbTV/1.6.1",Frisbee
 #EXTVLCOPT:http-user-agent=HbbTV/1.6.1
-https://d6m7lubks416z.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-zmbstsedxme9s/Frisbee_IT.m3u8
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","kid":"AQDE5i5x+CNN01HDlxnyiQ","k":"VONrgIEUn4L+3ooHO7hJ6g"},{"kty":"oct","kid":"AQW2Pv8hkPnAHJsWDN2PeA","k":"el3t07BdL3N+jKVzJhHPEA"}]}
+https://alwaysdata-api.zappr.stream/frisbee.mpd
 
 # 46 - Cartoonito
 #EXTINF:-1 tvg-id="cartoonito.it",Cartoonito
@@ -185,8 +200,10 @@ https://live03-col.msf.cdn.mediaset.net/live/ch-la/la-clr.isml/manifest.mpd
 https://495c5a85d9074f29acffeaea9e0215eb.msvdn.net/super/super_main/super_main_hbbtv/playlist.m3u8
 
 # 48 - Rai News 24
-#EXTINF:-1 tvg-id="rainews24.it",NO Rai News 24
-https://streamcdnb2-8e7439fdb1694c8da3a0fd63e4dda518.msvdn.net/rainews1/hls/playlist_mo.m3u8
+#140626
+#EXTINF:-1 tvg-id="RaiNews24.it"tvg-logo="https://raw.githubusercontent.com/klougithub/TVITALIA-/refs/heads/main/TVL/rainews24.png"tvg-chno="48"group-title="Rai":http-user-agent="HbbTV/1.6.1",Rai News 24
+#EXTVLCOPT:http-user-agent=HbbTV/1.6.1
+https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=1&output=7&forceUserAgent=raiplayappletv
 
 # 49 - Italia 2
 #EXTINF:-1 tvg-id="italia2.it",Italia 2
@@ -194,8 +211,10 @@ https://streamcdnb2-8e7439fdb1694c8da3a0fd63e4dda518.msvdn.net/rainews1/hls/play
 https://live03-col.msf.cdn.mediaset.net/live/ch-i2/i2-clr.isml/manifest.mpd
 
 # 50 - Sky TG24
-#EXTINF:-1 tvg-id="skytg24.it",NO Sky TG24
-https://hlslive-web-gcdn-skycdn-it.akamaized.net/TACT/12221/web/master.m3u8?hdnts=st=1701861650~exp=1765449000~acl=/*~hmac=84c9f3f71e57b13c3a67afa8b29a8591ea9ed84bf786524399545d94be1ec04d
+#140626
+#EXTINF:-1 tvg-id="SkyTG24.it"tvg-logo="https://raw.githubusercontent.com/klougithub/TVITALIA-/refs/heads/main/TVL/skytg24.png"tvg-chno="50"group-title="Sky":http-user-agent="HbbTV/1.6.1",Sky TG24
+#EXTVLCOPT:http-user-agent=HbbTV/1.6.1
+https://hlslive-web-gcdn-skycdn-it.akamaized.net/TACT/12221/web/master.m3u8?hdnts=st=1764666351~exp=1829466206~acl=/*~hmac=b0e9165b6c55027903ad103c8219f363d8765eb300c0d9a339e9767fc3509556
 
 # 51 - TGCOM 24
 #EXTINF:-1 tvg-id="tgcom24.it",TGCOM 24
@@ -203,8 +222,10 @@ https://hlslive-web-gcdn-skycdn-it.akamaized.net/TACT/12221/web/master.m3u8?hdnt
 https://live03-col.msf.cdn.mediaset.net/live/ch-kf/kf-clr.isml/manifest.mpd
 
 # 52 - DMAX
-#EXTINF:-1 tvg-id="dmax.it",NO DMAX
-https://d2j2nqgg7bzth.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-02k1gv1j0ufwn/DMAX_IT.m3u8
+#140626
+#EXTINF:-1 tvg-id="DMAX.it"tvg-logo="https://raw.githubusercontent.com/klougithub/TVITALIA-/refs/heads/main/TVL/dmax.png"tvg-chno="52"group-title="Discovery":http-user-agent="HbbTV/1.6.1",DMAX
+#EXTVLCOPT:http-user-agent=HbbTV/1.6.1
+https://streaming.aurora.enhanced.live/live/mpc/enl0eG1mLmVncmVzcy5mZDJ2eHI=/out/v1/IT_SIMULCAST/DMAX/CMAF/index.m3u8
 
 # 54 - Rai Storia
 #EXTINF:-1 tvg-id="raistoria.it",Rai Storia
@@ -217,8 +238,10 @@ https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=746990&output=7&forc
 https://live03-col.msf.cdn.mediaset.net/live/ch-kq/kq-clr.isml/manifest.mpd
 
 # 56 - HGTV - Home&Garden
-#EXTINF:-1 tvg-id="hgtv.it",NO HGTV - Home&Garden
-https://d1tidto9vz737l.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-joaw4f4kh2en1/HGTV_IT.m3u8
+#140626
+#EXTINF:-1 tvg-id="HGTV.it"tvg-logo="https://raw.githubusercontent.com/klougithub/TVITALIA-/refs/heads/main/TVL/homegardentv.png"tvg-chno="56"group-title="Discovery":http-user-agent="HbbTV/1.6.1",HGTV - Home&Garden
+#EXTVLCOPT:http-user-agent=HbbTV/1.6.1
+https://streaming.aurora.enhanced.live/live/mpc/enl0eG1mLmVncmVzcy5mZDJ2eHI=/out/v1/IT_SIMULCAST/HGTV/CMAF/index.m3u8
 
 # 57 - Rai Scuola
 #EXTINF:-1 tvg-id="raiscuola.it",Rai Scuola
@@ -231,8 +254,10 @@ https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=747011&output=7&forc
 https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=358025&output=7&forceUserAgent=raiplayappletv
 
 # 59 - Turbo
-#EXTINF:-1 tvg-id="turbo.it",NO Turbo
-https://d205m6k582pec4.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-asg5puyzdtnqu/Motortrend_IT.m3u8
+#140626
+#EXTINF:-1 tvg-id="DiscoveryTurbo.it"tvg-logo="https://raw.githubusercontent.com/klougithub/TVITALIA-/refs/heads/main/TVL/motortrend.png"tvg-chno="59"group-title="Discovery":http-user-agent="HbbTV/1.6.1",Motor Trend
+#EXTVLCOPT:http-user-agent=HbbTV/1.6.1
+https://streaming.aurora.enhanced.live/live/mpc/enl0eG1mLmVncmVzcy5mZDJ2eHI=/out/v1/IT_SIMULCAST/TURBO/CMAF/index.m3u8
 
 # 66 - Radio 105 TV
 #EXTINF:-1 tvg-id="radio105.it",Radio 105 TV
@@ -274,9 +299,10 @@ https://dd782ed59e2a4e86aabf6fc508674b59.msvdn.net/live/S38122967/2lyQRIAAGgRR/p
 https://d1bl6tskrpq9ze.cloudfront.net/hls/master.m3u8?ads.xumo_channelId=99992602&ads.xumo_streamId=99992602&ads.channelId=99992602&ads.ad_tag_id=118011&ads.csid=lgchannels_it_skynewsamericas_ssai&ads.channelName=skynews_it&ads.xumo_contentName=SkyNewsAmericas&ads.xumo_contentId=3867&ads.xumo_providerName=SkyNewsAmericas&ads.xumo_providerId=3867&ads.content_category=IAB1-7&ads.content_genre=television&ads.content_language=en&ads.content_rating=tv-pg&ads.coppa=0&ads.livestream=0&ads.prodq=1&ads.did=[IFA]&ads.lmt=[LMT]&ads.dnt=[DNS]&ads.us_privacy=[US_PRIVACY]&ads.gdpr=[GDPR]&ads.gdpr_consent=[GDPR_CONSENT]&ads.devicemake=[DEVICE_MAKE]&ads.devicemodel=[DEVICE_MODEL]&ads.country=[COUNTRY]&ads.fck=[FCK]&ads.viewsize=[VIEWSIZE]&ads.givn=[NONCE]&ads.app_name=[APP_NAME]&ads.app_bundle=[APP_BUNDLE]&ads.app_storeurl=[APP_STOREURL]
 
 # 9999 - 992 7 Gold
-#EXTINF:-1 tvg-id="7gold.it",NO 7 Gold
-#EXTVLCOPT:http-user-agent=rainet/4.0.5
-https://router.xdevel.com/video0s86-21/stream/playlist.m3u8
+#140626
+#EXTINF:-1 tvg-id="7Gold"tvg-logo="https://raw.githubusercontent.com/klougithub/TVITALIA-/refs/heads/main/TVL/7gold.png"tvg-chno="805"group-title="Altro":http-user-agent="HbbTV/1.6.1",7Gold
+#EXTVLCOPT:http-user-agent=HbbTV/1.6.1
+https://streamcdnr6-dddfac816632463dac50b21109dc1bb3.msvdn.net/live/S58803518/OOZape6Nxp4H/chunklist.m3u8
 
 #EXTINF:-1 tvg-id="7080TV.it@SD",70-80 TV (1080P)
 https://585b674743bbb.streamlock.net/9050/9050/playlist.m3u8
