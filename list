@@ -1,6 +1,6 @@
 #EXTM3U x-tvg-url="http://www.epg-guide.com/it.gz"
 
-# ultimo aggiornamento 280826 0024
+# ultimo aggiornamento 280826 0011
 
 # lista testata e filtrata il 060126 https://github.com/Tundrak/IPTV-Italia e https://raw.githubusercontent.com/Tundrak/IPTV-Italia/refs/heads/main/iptvita.m3u
 # lista filtrata il 061226 che contiene ancora tanti stream interessanti https://tivustream.website/urls/listm3u 270829 non funziona
@@ -392,13 +392,11 @@ https://amg01796-amg01796c17-rakuten-it-7492.playouts.now.amagi.tv/playlist/amg0
 
 #PROVA
 #EXTINF:-1 tvg-id="BeJoykids.it@HD",BeJoy.kids (1080p)
+https://stream.paroledivita.org/bejoy.m3u8
 
 #EXTINF:-1 tvg-id="Iunior TV"tvg-logo="https://raw.githubusercontent.com/klougithub/TVITALIA-/refs/heads/main/TVL/iuniortv.png"tvg-chno="803"group-title="Altro":http-user-agent="HbbTV/1.6.1",Junior TV 
 #EXTVLCOPT:http-user-agent=HbbTV/1.6.1
 https://5f22d76e220e1.streamlock.net:443/iuniortv/iuniortv/playlist.m3u8
-
-#EXTINF:-1 tvg-name="BeJoy"
-https://stream.paroledivita.org/bejoy.m3u8
 
 #EXTINF:-1 tvg-name="duckTV" tvg-logo="https://i.imgur.com/BKoAJZV.jpeg" tvg-chno="4613" group-title="VOD Italy",duckTV
 https://d6lk10bkdgfae.cloudfront.net/playlist.m3u8
